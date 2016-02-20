@@ -138,6 +138,7 @@ animation: fontswitch 2s infinite;
 }
 audio {
 width: 90%;
+height: 25px;
 }
 ul {
 list-style: square;
