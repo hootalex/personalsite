@@ -18,7 +18,7 @@ color: black;
 text-decoration: none;
 }
 ::selection {
-background: yellow;
+background: palegreen;
 }
 h1 {
 font-family: "Open Sans", sans-serif;
@@ -38,12 +38,12 @@ color: gray;
 /*-webkit-font-smoothing : none;*/
 }
 #topbar {
-width: 850px;
+width: 900px;
 margin: auto;
 padding-left: 40px;
 }
 .columns {
-width: 850px;
+width: 900px;
 margin: auto;
 display: flex;
 flex-direction: row;
