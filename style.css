@@ -1,24 +1,25 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700);
+
 html, body {
-background-color: white;
 font-family: "Open Sans", sans-serif;
 -webkit-font-smoothing: antialiased;
 }
 a:link {
-color: olive;
+color: coral;
 text-decoration: none;
 transition: .3s;
 }
 a:visited {
-color: olive;
+color: coral;
 text-decoration: none;
 }
 a:hover {
-color: black;
+color: white;
 text-decoration: none;
+background-color: black;
 }
 ::selection {
-background: palegreen;
+background: yellow;
 }
 h1 {
 font-family: "Open Sans", sans-serif;
@@ -31,7 +32,6 @@ background-color: coral;
 color: white;
 border: 1px solid black;
 box-shadow: -9px 9px 0px -4px rgba(0, 0, 0, 0.39);
-
 /*font-smooth: never;*/
 /*-webkit-font-smoothing : none;*/
 }
@@ -50,7 +50,6 @@ text-transform: uppercase;
 font-family: "Open Sans", sans-serif;
 font-weight: 400;
 font-size: 13px;
-color: gray;
 /*font-smooth: never;*/
 /*-webkit-font-smoothing : none;*/
 }
@@ -60,6 +59,7 @@ margin: auto;
 display: flex;
 justify-content: space-between;
 background-color: white;
+border-bottom: 1px solid gray;
 }
 .columns {
 width: 900px;
@@ -74,7 +74,7 @@ width: 33.33%;
 padding-right: 20px;
 padding-left: 20px;
 padding-bottom: 30px;
-border-right: 1px solid gray;
+/*border-right: 1px solid gray;*/
 }
 .columns div:nth-child(3) {
 border-right: none
@@ -100,12 +100,13 @@ border-image-outset: initial;
 border-image-repeat: initial;
 padding: 20px;
 border: 1px solid blue;
+background-color: white;
 border-radius: 1px;
 box-shadow: -9px 9px 0px -4px rgba(0, 0, 0, 0.39);
 }
-h3:nth-of-type(1):first-letter {
+/*h3:nth-of-type(1):first-letter {
 color: coral;
-}
+}*/
 article {
 font-size: .9em;
 padding-bottom: 5px;
@@ -141,7 +142,7 @@ width: 90%;
 height: 25px;
 }
 ul {
-list-style: square;
+list-style: katakana;
 }
 @keyframes fontswitch {
 0% {
