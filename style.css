@@ -1,35 +1,42 @@
   @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700);
 html, body {
+  /*background: url(img/bluejay.png) no-repeat 50% 50% fixed;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
+  background-color: ;
 }
 a:link {
-  color: coral;
+  color: #0074D9;
   text-decoration: none;
-  transition: .3s;
+  /*transition: .3s;*/
 }
 a:visited {
-  color: coral;
+  color: #0074D9;
   text-decoration: none;
 }
 a:hover {
   color: white;
   text-decoration: none;
-  background-color: black;
+  background-color: #111111;
 }
 ::selection {
   background: yellow;
 }
 h1 {
-  font-family: "Open Sans", sans-serif;
+  font-family: Georgia, serif;
   font-weight: 400;
   font-size: 30px;
   display: inline;
   padding: 10px;
   margin-left: 25px;
-  background-color: coral;
-  color: white;
-  border: 1px solid black;
+  background-color: white;
+  color: #85144b;
+  border: 1px solid #111111;
   box-shadow: -9px 9px 0px -4px rgba(0, 0, 0, 0.39);
   /*font-smooth: never;*/
   /*-webkit-font-smoothing : none;*/
@@ -40,13 +47,14 @@ h2 {
   font-weight: 400;
   margin-right: 25px;
   margin-top: 45px;
-  color: gray;
+  color: #AAAAAA;
 }
 h3 {
   text-align: center;
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
-  font-weight: 400;
+  color:  #AAAAAA;
+  font-weight: 600;
   font-size: 13px;
   /*font-smooth: never;*/
   /*-webkit-font-smoothing : none;*/
@@ -56,7 +64,15 @@ h3 {
   margin: auto;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #AAAAAA;
+}
+#footer {
+  width: 900px;
+  margin: auto;
+  padding-bottom: 20px;
+  border-top: 1px solid #AAAAAA;
+  text-align: center;
+  font-size: .9em;
 }
 .columns {
   width: 900px;
@@ -71,7 +87,7 @@ h3 {
   padding-right: 20px;
   padding-left: 20px;
   padding-bottom: 30px;
-  /*border-right: 1px solid gray;*/
+  /*border-right: 1px solid #AAAAAA;*/
 }
 .columns div:nth-child(3) {
   border-right: none
@@ -96,7 +112,7 @@ h3 {
   border-image-outset: initial;
   border-image-repeat: initial;
   padding: 20px;
-  border: 1px solid blue;
+  border: 1px solid #0074D9;
   background-color: white;
   border-radius: 1px;
   box-shadow: -9px 9px 0px -4px rgba(0, 0, 0, 0.39);
@@ -109,21 +125,13 @@ color: coral;
 article {
   font-size: .9em;
   padding-bottom: 5px;
-  border-bottom: 1px solid gray;
-}
-.blockquote {
-  text-align: center;
-  font-family: Georgia, serif;
-  font-style: italic;
-  font-size: 25px;
-  color: gray;
-  line-height: 35px;
+  border-bottom: 1px solid #AAAAAA;
 }
 .song {
   background-color: lightblue;
-  background: linear-gradient(lightblue, lightblue);
+  background: linear-gradient(#85144b, #85144b);
   padding: 10px;
-  color: black;
+  color: white;
   text-align: center;
   border-radius: 3px;
 }
@@ -140,7 +148,7 @@ audio {
   height: 25px;
 }
 ul {
-  list-style: lower-greek;
+  list-style: square;
 }
 @keyframes fontswitch {
   0% {
