@@ -20,12 +20,12 @@ a:visited {
   text-decoration: none;
 }
 a:hover {
-  color: white;
+  color: #111111;
   text-decoration: none;
-  background-color: #111111;
+  background-color: #FFFF99;
 }
 ::selection {
-  background: yellow;
+  background: #FFFF99;
 }
 h1 {
   font-family: Georgia, serif;
