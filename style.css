@@ -171,6 +171,6 @@ ul {
   width: 90%;
   margin: auto;
 }
-article {
+article, #footer {
   font-size: 1em;
 }
