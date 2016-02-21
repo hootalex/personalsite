@@ -151,7 +151,7 @@ ul {
   list-style: square;
 }
 
-@media all and (max-width:900px) {
+@media all and (max-width:700px) {
   body {background-color: white;
   }
   #topbar {
