@@ -1,10 +1,12 @@
   @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700);
   @import url(https://fonts.googleapis.com/css?family=Coda);
-  html, body {
+  html {
     background-image: url('img/house.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: top left;
+  }
+  html, body {
     font-family: "Open Sans", sans-serif;
     -webkit-font-smoothing: antialiased;
   }
