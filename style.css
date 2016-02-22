@@ -73,6 +73,7 @@
     border-top: 1px solid #AAAAAA;
     text-align: center;
     font-size: .9em;
+    margin-top: 30px;
   }
   .columns {
     width: 900px;
@@ -86,7 +87,6 @@
     width: 33.33%;
     padding-right: 20px;
     padding-left: 20px;
-    padding-bottom: 30px;
     /*border-right: 1px solid #AAAAAA;*/
   }
   .columns div:nth-child(3) {
@@ -144,7 +144,7 @@ color: coral;
   }
   audio {
     width: 90%;
-    height: 25px;
+    height: 30px;
   }
   ul {
     list-style: square;
