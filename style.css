@@ -144,7 +144,6 @@ color: coral;
   }
   audio {
     width: 90%;
-    height: 30px;
   }
   ul {
     list-style: square;
@@ -214,4 +213,7 @@ color: coral;
     }
     html, body {
       background-image: none;
+    }
+    audio {
+      height: 45px;
     }
