@@ -44,7 +44,7 @@ h1 {
 }
 h2 {
   display: inline;
-  font-size: 1em;
+  font-size: .9em;
   font-weight: 400;
   margin-right: 25px;
   margin-top: 45px;
@@ -151,6 +151,27 @@ audio {
 ul {
   list-style: square;
 }
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
 @media all and (max-width:700px) {
   body {
     background-color: white;
@@ -174,4 +195,7 @@ ul {
   }
   article, #footer {
     font-size: 1em;
+  }
+  h2 {
+    display: none;
   }
