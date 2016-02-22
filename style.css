@@ -210,3 +210,6 @@ color: coral;
     article, #footer {
       font-size: 1em;
     }
+    html, body {
+      background-image: none;
+    }
