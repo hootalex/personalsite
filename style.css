@@ -137,14 +137,6 @@ color: coral;
     text-align: center;
     border-radius: 3px;
   }
-  .fontswitch {
-    font-size: 100px;
-    text-align: center;
-    margin: 0px;
-    font-family: Helvetica;
-    font-weight: normal;
-    animation: fontswitch 2s infinite;
-  }
   audio {
     width: 90%;
   }
