@@ -59,6 +59,9 @@
     /*font-smooth: never;*/
     /*-webkit-font-smoothing : none;*/
   }
+  strong {
+    border-bottom: dashed #111111 1px;
+  }
   #topbar {
     width: 900px;
     margin: auto;
