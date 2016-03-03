@@ -1,216 +1,214 @@
-  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700);
-  @import url(https://fonts.googleapis.com/css?family=Coda);
-  html {
-    background-image: url('img/house.jpg');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: top left;
-  }
-  html, body {
-    font-family: "Open Sans", sans-serif;
-    -webkit-font-smoothing: antialiased;
-  }
-  a:link {
-    color: #0074D9;
-    text-decoration: none;
-    /*transition: .3s;*/
-  }
-  a:visited {
-    color: #0074D9;
-    text-decoration: none;
-  }
-  a:hover {
-    color: #111111;
-    text-decoration: none;
-    background-color: #FFFF99;
-  }
-  ::selection {
-    background: #FFFF99;
-  }
-  h1 {
-    /*font-family: "Coda", sans-serif;
-    font-weight: 400;
-    font-size: 30px;
-    display: inline;*/
-    padding: 10px;
-    margin-left: 25px;
-    margin-bottom: -23px;
-    z-index: 10;
-    /*background-color: white;
-    color: #85144b;
-    border: 1px solid #111111;
-    box-shadow: -9px 9px 0px -4px rgba(0, 0, 0, 0.39);*/
-    /*font-smooth: never;*/
-    /*-webkit-font-smoothing : none;*/
-  }
-  h2 {
-    display: inline;
-    font-size: .9em;
-    font-weight: 400;
-    margin-right: 25px;
-    margin-top: 45px;
-    color: #AAAAAA;
-  }
-  h3 {
-    text-align: center;
-    text-transform: uppercase;
-    font-family: "Open Sans", sans-serif;
-    color: #AAAAAA;
-    font-weight: 600;
-    font-size: 13px;
-    /*font-smooth: never;*/
-    /*-webkit-font-smoothing : none;*/
-  }
-  strong {
-    border-bottom: dashed #111111 1px;
-  }
-  #topbar {
-    width: 900px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #AAAAAA;
-  }
-  #footer {
-    width: 900px;
-    margin: auto;
-    padding-bottom: 20px;
-    border-top: 1px solid #AAAAAA;
-    text-align: center;
-    font-size: .9em;
-    margin-top: 30px;
-  }
-  .columns {
-    width: 900px;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-  }
-  .col-one, .col-two, .col-three {
-    background-color: white;
-    width: 33.33%;
-    padding-right: 20px;
-    padding-left: 20px;
-    /*border-right: 1px solid #AAAAAA;*/
-  }
-  .columns div:nth-child(3) {
-    border-right: none
-  }
-  .columns img {
-    width: 100%;
-    display: block;
-    margin: auto;
-  }
-  .about p:nth-of-type(1):first-letter {
-    float: left;
-    font-family: Georgia, serif;
-    color: rgb(51, 51, 51);
-    font-size: 100px;
-    line-height: 60px;
-    margin-top: 4px;
-    margin-right: 8px;
-    margin-left: 5px;
-    border-image-source: initial;
-    border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-    padding: 20px;
-    border: 1px solid #0074D9;
-    background-color: white;
-    border-radius: 1px;
-    box-shadow: -9px 9px 0px -4px rgba(0, 0, 0, 0.39);
-  }
-  /*h3:nth-of-type(1):first-letter {
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Coda);
+html {
+  background-image: url('img/house.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: top left;
+}
+html, body {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+a:link {
+  color: #0074D9;
+  text-decoration: none;
+  /*transition: .3s;*/
+}
+a:visited {
+  color: #0074D9;
+  text-decoration: none;
+}
+a:hover {
+  color: #111111;
+  text-decoration: none;
+  background-color: #FFFF99;
+}
+::selection {
+  background: #FFFF99;
+}
+h1 {
+  font-family: "Coda", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  display: inline;
+  padding: 10px;
+  margin-left: 25px;
+  background-color: white;
+  color: #85144b;
+  border: 1px solid #111111;
+  box-shadow: -9px 9px 0px -4px rgba(0, 0, 0, 0.39);
+  /*font-smooth: never;*/
+  /*-webkit-font-smoothing : none;*/
+}
+h2 {
+  display: inline;
+  font-size: .9em;
+  font-weight: 400;
+  margin-right: 25px;
+  margin-top: 45px;
+  color: #AAAAAA;
+}
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  color: #AAAAAA;
+  font-weight: 600;
+  font-size: 13px;
+  /*font-smooth: never;*/
+  /*-webkit-font-smoothing : none;*/
+}
+strong {
+  border-bottom: dashed #111111 1px;
+}
+#topbar {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #AAAAAA;
+}
+#footer {
+  width: 900px;
+  margin: auto;
+  padding-bottom: 20px;
+  border-top: 1px solid #AAAAAA;
+  text-align: center;
+  font-size: .9em;
+  margin-top: 30px;
+}
+.columns {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+.col-one, .col-two, .col-three {
+  background-color: white;
+  width: 33.33%;
+  padding-right: 20px;
+  padding-left: 20px;
+  /*border-right: 1px solid #AAAAAA;*/
+}
+.columns div:nth-child(3) {
+  border-right: none
+}
+.columns img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+.about p:nth-of-type(1):first-letter {
+  float: left;
+  font-family: Georgia, serif;
+  color: rgb(51, 51, 51);
+  font-size: 100px;
+  line-height: 60px;
+  margin-top: 4px;
+  margin-right: 8px;
+  margin-left: 5px;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  padding: 20px;
+  border: 1px solid #0074D9;
+  background-color: white;
+  border-radius: 1px;
+  box-shadow: -9px 9px 0px -4px rgba(0, 0, 0, 0.39);
+}
+/*h3:nth-of-type(1):first-letter {
 color: coral;
 }*/
 
-  article {
-    font-size: .9em;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #AAAAAA;
+article {
+  font-size: .9em;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #AAAAAA;
+}
+.song {
+  background-color: lightblue;
+  background: linear-gradient(#85144b, #85144b);
+  padding: 10px;
+  color: white;
+  text-align: center;
+  border-radius: 3px;
+}
+audio {
+  width: 90%;
+}
+ul {
+  list-style: square;
+}
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
   }
-  .song {
-    background-color: lightblue;
-    background: linear-gradient(#85144b, #85144b);
-    padding: 10px;
-    color: white;
-    text-align: center;
-    border-radius: 3px;
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media all and (max-width:700px) {
+  body {
+    background-color: white;
+  }
+  #topbar {
+    width: 100%;
+  }
+  #footer {
+    width: 100%;
+  }
+  .columns {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .col-one, .col-two, .col-three {
+    background-color: white;
+    width: 90%;
+    margin: auto;
+  }
+  article, #footer {
+    font-size: 1em;
+  }
+  html, body {
+    background-image: none;
   }
   audio {
-    width: 90%;
+    height: 45px;
   }
-  ul {
-    list-style: square;
-  }
-  .typed-cursor {
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-  }
-  @keyframes blink {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  @-webkit-keyframes blink {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  @-moz-keyframes blink {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  @media all and (max-width:700px) {
-    body {
-      background-color: white;
-    }
-    #topbar {
-      width: 100%;
-    }
-    #footer {
-      width: 100%;
-    }
-    .columns {
-      width: 100%;
-      margin: auto;
-      display: flex;
-      flex-direction: column;
-    }
-    .col-one, .col-two, .col-three {
-      background-color: white;
-      width: 90%;
-      margin: auto;
-    }
-    article, #footer {
-      font-size: 1em;
-    }
-    html, body {
-      background-image: none;
-    }
-    audio {
-      height: 45px;
-    }
