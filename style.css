@@ -28,16 +28,18 @@
     background: #FFFF99;
   }
   h1 {
-    font-family: "Coda", sans-serif;
+    /*font-family: "Coda", sans-serif;
     font-weight: 400;
     font-size: 30px;
-    display: inline;
+    display: inline;*/
     padding: 10px;
     margin-left: 25px;
-    background-color: white;
+    margin-bottom: -23px;
+    z-index: 10;
+    /*background-color: white;
     color: #85144b;
     border: 1px solid #111111;
-    box-shadow: -9px 9px 0px -4px rgba(0, 0, 0, 0.39);
+    box-shadow: -9px 9px 0px -4px rgba(0, 0, 0, 0.39);*/
     /*font-smooth: never;*/
     /*-webkit-font-smoothing : none;*/
   }
