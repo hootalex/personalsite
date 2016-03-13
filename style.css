@@ -1,10 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700);
 @import url(https://fonts.googleapis.com/css?family=Coda);
 html {
-  background-image: url('img/house.jpg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: top left;
 }
 html, body {
   font-family: "Open Sans", sans-serif;
@@ -92,6 +88,7 @@ strong {
   padding-left: 20px;
   /*border-right: 1px solid #AAAAAA;*/
 }
+
 .columns div:nth-child(3) {
   border-right: none
 }
@@ -130,12 +127,12 @@ article {
   border-bottom: 1px solid #AAAAAA;
 }
 .song {
-  background-color: lightblue;
-  background: linear-gradient(lightblue, lightblue);
+  background-color: #000066;
   padding: 10px;
   color: black;
   text-align: center;
   border-radius: 3px;
+  color: white;
 }
 audio {
   width: 90%;
