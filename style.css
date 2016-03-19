@@ -114,7 +114,6 @@ strong {
   padding: 20px;
   border: 1px solid #0074D9;
   background-color: white;
-  border-radius: 1px;
   box-shadow: -9px 9px 0px -4px rgba(0, 0, 0, 0.39);
 }
 /*h3:nth-of-type(1):first-letter {
@@ -131,8 +130,14 @@ article {
   padding: 10px;
   color: black;
   text-align: center;
-  border-radius: 3px;
   color: white;
+}
+img, .song {
+  border-radius: 3px;
+}
+
+.profile {
+  border-radius: 50%;
 }
 audio {
   width: 90%;
