@@ -8,11 +8,25 @@
     <link href="font-awesome.css" rel="stylesheet">
     <meta content="width=420, maximum-scale=1.0" name="viewport">
     <title>Alex Tomlinson | aelx.co</title>
+    <script src="http://code.jquery.com/jquery-latest.js">
+  </script>
+  <script>
+    $(document).ready(function() {
+
+      $("h2").click(function() {
+
+        $("article").toggleClass("hide");
+        $("h2").toggleClass("hide");
+        $("#folder").toggleClass("show");
+      });
+      });
+  </script>
 </head>
 <body>
     <div id="topbar">
         <h1>Alex Tomlinson</h1>
         <h2><i class="fa fa-folder-open-o fa-lg"></i></h2>
+        <h2 id="folder" class="folder"><i class="fa fa-folder-o fa-lg"></i></h2>
     </div>
     <div class="columns">
         <div class="col-one">
@@ -78,14 +92,14 @@
       });
     </script> -->
         <div class="col-three">
+          <article>
             <h3>Links</h3>
-            <article>
                 <p class="center"><a href=
                 "http://alextomlinson.info">Portfolio</a><br>
                 <a href="http://juneau.io/info"><strong>Juneau</strong></a></p>
             </article>
-            <h3>These ubiquitous things!</h3>
             <article>
+            <h3>These ubiquitous things!</h3>
                 <p class="center">
                 <a href=
                 "http://twitter.com/hootalex"><i class=

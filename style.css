@@ -22,6 +22,18 @@ a:hover {
 ::selection {
   background: #FFFF99;
 }
+.hide {
+  display: none;
+}
+
+.folder {
+  display: none;
+  padding-right: 3px;
+}
+
+  .show {
+    display: block;
+  }
 h1 {
   font-family: "Coda", sans-serif;
   font-weight: 400;
