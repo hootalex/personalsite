@@ -159,44 +159,24 @@ audio {
 ul {
   list-style: square;
 }
-.typed-cursor {
-  opacity: 1;
-  -webkit-animation: blink 0.7s infinite;
-  -moz-animation: blink 0.7s infinite;
-  animation: blink 0.7s infinite;
+.errorshake { animation: shake .4s linear;
 }
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-moz-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+@keyframes shake {
+    8%, 41% {
+        transform: translateX(-10px);
+    }
+    25%, 58% {
+        transform: translateX(10px);
+    }
+    75% {
+        transform: translateX(-5px);
+    }
+    92% {
+        transform: translateX(5px);
+    }
+    0%, 100% {
+        transform: translateX(0);
+    }
 }
 @media all and (max-width:700px) {
   body {
