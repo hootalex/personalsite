@@ -9,7 +9,6 @@ html, body {
 a:link {
   color: #0074D9;
   text-decoration: none;
-  /*transition: .3s;*/
 }
 a:visited {
   color: #0074D9;
@@ -18,7 +17,7 @@ a:visited {
 a:hover {
   color: #111111;
   text-decoration: none;
-  background-color: #FFFF99;
+  /*background-color: #FFFF99;*/
 }
 ::selection {
   background: #FFFF99;
@@ -44,6 +43,10 @@ h2 {
   margin-right: 25px;
   margin-top: 45px;
   color: #AAAAAA;
+}
+
+.center {
+  text-align: center;
 }
 h3 {
   text-align: center;
