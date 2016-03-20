@@ -141,11 +141,10 @@ article {
   border-bottom: 1px solid #AAAAAA;
 }
 .song {
-  background-color: #000066;
+  background-color: #FFD578;
   padding: 10px;
   color: black;
   text-align: center;
-  color: white;
 }
 img, .song {
   border-radius: 3px;
