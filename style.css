@@ -1,3 +1,5 @@
+/*Note to self: I'm using #111111 instead of black because it looks nicer on the screen.*/
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700);
 @import url(https://fonts.googleapis.com/css?family=Coda);
 html {
@@ -17,11 +19,7 @@ a:visited {
 a:hover {
   color: #85144b;
   text-decoration: none;
-  /*background-color: #FFFF99;*/
 }
-/*::selection {
-  background: #FFFF99;
-}*/
 p {
   color: #111111;
 }
