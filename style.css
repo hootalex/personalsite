@@ -19,9 +19,9 @@ a:hover {
   text-decoration: none;
   /*background-color: #FFFF99;*/
 }
-::selection {
+/*::selection {
   background: #FFFF99;
-}
+}*/
 .hide {
   display: none;
 }
