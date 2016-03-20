@@ -13,4 +13,9 @@ $(document).ready(function() {
     $("h2").toggleClass("hide");
     $("#folder").toggleClass("show");
   });
+  $(".playbutton").click(function() {
+
+    $("#playandpause").toggleClass("fa fa-play fa-lg");
+    $("#playandpause").toggleClass("fa fa-pause fa-lg");
+  });
 });

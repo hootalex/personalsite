@@ -10,7 +10,10 @@
   <link href="font-awesome.css" rel="stylesheet">
   <script src="jquery-2.2.0.min.js"></script>
   <script src="littlethings.js"></script>
+  <script src="wavesurfer.min.js"></script>
+  <script src="audioplayer.js"></script>
 </head>
+
 <body>
   <div id="topbar">
     <h1>Alex Tomlinson</h1>
@@ -51,9 +54,14 @@
             <br> Type: Computer music
             <br>
             <br> Mar. 20, 2016</p>
-          <br>
-          <audio controls="" src="https://www.dropbox.com/s/gawisc91rff26sp/Pretty%20Beat.mp3?dl=1">
-          </audio>
+          <div class="player">
+            <div id="waveform">
+            </div>
+            <br>
+            <button class="playbutton" data-action="play">
+              <i id="playandpause" class="fa fa-play fa-lg"></i>
+            </button>
+          </div>
         </div>
       </article>
       <article>

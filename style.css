@@ -17,10 +17,10 @@ a:visited {
   text-decoration: none;
 }
 a:hover {
-  color: #85144b;
+  color: #111111;
   text-decoration: none;
 }
-p {
+article {
   color: #111111;
 }
 
@@ -35,6 +35,7 @@ p {
   .show {
     display: block;
   }
+
 h1 {
   font-family: "Coda", sans-serif;
   font-weight: 400;
@@ -141,8 +142,20 @@ article {
 .song {
   background-color: lightblue;
   padding: 10px;
-  color: #111111;
   text-align: center;
+}
+.playbutton {
+  border: none;
+  background-color: inherit;
+  outline: none;
+  width: 10%;
+}
+.player {
+  display: flex;
+  flex-direction: row-reverse;;
+}
+#waveform {
+  width: 90%;
 }
 img, .song {
   border-radius: 3px;
