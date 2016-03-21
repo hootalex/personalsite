@@ -146,7 +146,7 @@ article {
 }
 .playbutton {
   border: none;
-  background-color: inherit;
+  background-color: transparent;
   outline: none;
   width: 10%;
 }
