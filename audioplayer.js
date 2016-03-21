@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Init
     wavesurfer.init({
         container: document.querySelector('#waveform'),
-        waveColor: 'white',
+        waveColor: 'purple',
         progressColor: '#111111',
         backend: 'MediaElement',
         hideScrollbar: 'true',
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     // Load audio from URL
-    wavesurfer.load('http://f.cl.ly/items/2r3x1q082B2Q1N0g0A1i/Pretty%20Beat.mp3');
+    wavesurfer.load('http://f.cl.ly/items/3d3o1R2g3s0G1X11291T/Different%20Sundays.mp3');
 
 
     // Play button
