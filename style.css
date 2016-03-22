@@ -141,15 +141,17 @@ article {
   border-bottom: 1px solid #AAAAAA;
 }
 .song {
-  background-color: thistle;
+  background-color: #001f3f;
   padding: 10px;
   text-align: center;
+  color: white;
 }
 .playbutton {
   border: none;
   background-color: transparent;
   outline: none;
   width: 10%;
+  color: white;
 }
 .player {
   display: flex;
