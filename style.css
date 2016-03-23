@@ -31,7 +31,6 @@ article {
 
 .folder {
   display: none;
-  padding-right: 3px;
 }
   .show {
     display: block;
@@ -227,7 +226,7 @@ ul {
 }
 
 .explorer li:hover {
-  background-color: #f6f6f6;
+  background-color: #e8e8e8;
 }
 
 .explorer li:active {
