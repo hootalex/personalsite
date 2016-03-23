@@ -11,6 +11,7 @@ $(document).ready(function() {
 
     $("div").toggleClass("hide");
     $("h2").toggleClass("hide");
+    $("#explorer").toggleClass("hide flyin");
     $("#folder").toggleClass("show");
   });
   $(".playbutton").click(function() {
