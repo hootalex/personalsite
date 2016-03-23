@@ -48,9 +48,12 @@ h1 {
   color: #85144b;
   border: 1px solid #111111;
   box-shadow: -9px 9px 0px -4px rgba(0, 0, 0, 0.39);
+  cursor:default;
   /*font-smooth: never;*/
   /*-webkit-font-smoothing : none;*/
 }
+h1::selection { background-color: transparent }
+
 h2 {
   display: inline;
   font-size: .9em;

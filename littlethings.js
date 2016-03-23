@@ -9,7 +9,7 @@ $(document).ready(function() {
 
   $("h2").click(function() {
 
-    $("article").toggleClass("hide");
+    $("div").toggleClass("hide");
     $("h2").toggleClass("hide");
     $("#folder").toggleClass("show");
   });
