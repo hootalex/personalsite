@@ -215,6 +215,7 @@ ul {
   padding: 0;
   font-size: .8em;
 }
+
 .explorer ul {
   list-style: none;
 }
@@ -229,8 +230,14 @@ ul {
   background-color: #e8e8e8;
 }
 
+
 .explorer li:active {
   background-color: white;
+}
+
+.explorer a {
+  color: #111111;
+  cursor: default;
 }
 
 .explorer li i {
