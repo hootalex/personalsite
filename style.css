@@ -224,6 +224,11 @@ ul {
   border-bottom: 1px solid #AAAAAA;
   padding-top: 12px;
   padding-bottom: 12px;
+  cursor: default;
+}
+
+.selected {
+  background-color: #EBF4FA;
 }
 
 .explorer li:hover {
