@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     // Load audio from URL
-    wavesurfer.load('http://cl.ly/fWXQ/Coda%20Waltz%20degraded2.mp3');
+    wavesurfer.load('audio/codawaltzdegraded.mp3');
 
 
     // Play button
