@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     // Load audio from URL
-    wavesurfer.load('http://f.cl.ly/items/3d3o1R2g3s0G1X11291T/Different%20Sundays.mp3');
+    wavesurfer.load('http://cl.ly/fWXQ/Coda%20Waltz%20degraded2.mp3');
 
 
     // Play button
