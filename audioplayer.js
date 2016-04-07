@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
         cursorWidth: 0,
         height: 50,
         normalize: true,
-        // barWidth: 1,
+        barWidth: 1,
     });
 
 
