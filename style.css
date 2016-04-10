@@ -21,7 +21,7 @@ body {
   overflow: auto;
   text-align: center;
   display:table-cell;
-  vertical-align:middle;
+  vertical-align:bottom;
   background: url(img/cover.jpg) no-repeat center center fixed;
   background-size: cover;
 }
@@ -30,7 +30,11 @@ h5 {
   color: white;
   font-family: 'Coda', sans-serif;
   font-weight: normal;
-  font-size: 100px;
+  font-size: 25px;
+  animation-name: arrowdown;
+  animation-duration: 3s;
+  opacity: 0;
+  animation-delay: .8s;
 }
 
 
@@ -211,6 +215,19 @@ ul {
     }
     100% {
         transform: scale(1,1);
+    }
+}
+@keyframes arrowdown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    50% { opacity: 1;
+      transform: translateY(0px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(50px);
     }
 }
 @keyframes shake {
