@@ -316,4 +316,5 @@ ul {
 
   .fullscreen {
   display: none;
+  height: 0px;
   }
