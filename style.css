@@ -35,6 +35,7 @@ h5 {
   animation-duration: 3s;
   opacity: 0;
   animation-delay: .8s;
+  animation-iteration-count: 2;
 }
 
 
