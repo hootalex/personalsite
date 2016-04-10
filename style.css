@@ -280,6 +280,13 @@ ul {
 
 /*Done styling the file explorer.*/
 
+@media all and (max-width: 1100px) {
+  .fullscreen {
+  display: none;
+  height: 9999%;
+  }
+}
+
 @media all and (max-width:700px) {
   body {
     background-color: white;
