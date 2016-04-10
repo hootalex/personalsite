@@ -7,6 +7,16 @@ $(document).ready(function() {
   //   }, 600);
   // });
 
+  var windowheight = $( window ).height();
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > windowheight) {
+        $(window).scrollTop(0);
+        $('.fullscreen').css({
+            'display': 'none'
+        });
+    }
+});
+
   $("h2").click(function() {
 
     $("div").toggleClass("hide");
