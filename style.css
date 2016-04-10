@@ -23,6 +23,7 @@ body {
   vertical-align:middle;
   background: url(img/cover.jpg) no-repeat center center fixed;
   background-size: cover;
+  webkit-background-size: cover;
 }
 
 h5 {
