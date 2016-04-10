@@ -7,9 +7,9 @@ $(document).ready(function() {
   //   }, 600);
   // });
 
-  var windowheight = $( window ).height();
+  var windowheight = $(window).height();
   $(window).scroll(function() {
-    if ($(this).scrollTop() > windowheight) {
+    if (($(this).scrollTop() > windowheight)) {
         $(window).scrollTop(0);
         $('.fullscreen').css({
             'display': 'none'
