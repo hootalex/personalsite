@@ -29,15 +29,17 @@ body {
 .hint {
   color: yellow;
   font-size: 30px;
+  font-weight: bold;
   font-family: Helvetica, Arial, sans-serif;
   animation-name: arrowdown;
-  animation-duration: 7s;
+  animation-duration: 9s;
   opacity: 0;
-  animation-delay: .8s;
   animation-iteration-count: 1;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
   line-height: 150px;
+  font-smooth: never;
+-webkit-font-smoothing : none;
 }
 
 
@@ -224,12 +226,14 @@ ul {
     0% {
         opacity: 0;
     }
-    20% {
+    10% {
         opacity: 0;
     }
-    50% { opacity: 1;
+    11% { opacity: 1;
     }
     80% { opacity: 1;
+    }
+    99% { opacity: 1;
     }
     100% {
         opacity: 0;
