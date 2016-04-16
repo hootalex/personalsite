@@ -99,11 +99,11 @@ article {
 
 h1 {
   font-family: "Flash", sans-serif;
-  font-weight: 900;
+  font-weight: 400;
   font-size: 30px;
   display: inline;
   padding: 10px;
-  margin-left: 25px;
+  margin-left: 15px;
   transform: rotate(-15deg);
   /*background-color: white;
   border: 1px solid #111111;
