@@ -164,6 +164,9 @@ strong {
   display: flex;
   flex-direction: row;
   align-items: stretch;
+  animation-name: comeup;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
 }
 .col-one {
   width: 45%;
@@ -257,6 +260,14 @@ ul {
     }
     100% {
         transform: scale(1,1);
+    }
+}
+@keyframes comeup {
+    0% {
+        opacity: 0; padding-top: 10px;
+    }
+    100% {
+        opacity: 1; padding-top: inherit;
     }
 }
 @keyframes arrowdown {
