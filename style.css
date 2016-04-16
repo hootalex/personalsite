@@ -395,6 +395,9 @@ p {
   html, body {
     background-image: none;
   }
+  .profile {
+    border-radius: 50%;
+  }
   audio {
     height: 45px;
   }
