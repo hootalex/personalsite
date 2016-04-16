@@ -1,11 +1,13 @@
 /*Note to self: I'm using #111111 instead of black because it looks nicer on the screen.*/
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700);
-@import url(https://fonts.googleapis.com/css?family=Coda);
+@import url(https://fonts.googleapis.com/css?family=Catamaran:900);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans);
 html {
 }
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Fira Sans", sans-serif;
+  line-height: 1.5;
   margin: 0;
   /*-webkit-font-smoothing: antialiased;*/
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -85,18 +87,17 @@ article {
   }
 
 h1 {
-  font-family: "Coda", sans-serif;
-  font-weight: 400;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 900;
   font-size: 30px;
   display: inline;
   padding: 10px;
   margin-left: 25px;
-  background-color: white;
-  color: #85144b;
+  /*background-color: white;
   border: 1px solid #111111;
-  box-shadow: -9px 9px 0px -4px rgba(0, 0, 0, 0.39);
-  cursor: default;
-  /*font-smooth: never;*/
+  box-shadow: -9px 9px 0px -4px rgba(0, 0, 0, 0.39);*/
+  color: #85144b;
+  font-smooth: never;
   /*-webkit-font-smoothing : none;*/
 }
 h1::selection { background-color: transparent }
@@ -117,7 +118,7 @@ h2 {
 h3 {
   text-align: center;
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   color: #AAAAAA;
   font-weight: 600;
   font-size: 13px;
@@ -132,7 +133,7 @@ strong {
   margin: auto;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #AAAAAA;
+  /*border-bottom: 1px solid #AAAAAA;*/
 }
 #footer {
   width: 900px;
