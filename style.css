@@ -385,9 +385,13 @@ ul {
   .explorer {
     width: 100%;
   }
-  article, # {
-    font-size: 1em;
+p {
+    font-size: 17px;
   }
+
+  li {
+      font-size: 17px;
+    }
   html, body {
     background-image: none;
   }
