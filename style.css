@@ -14,12 +14,13 @@ body {
 }
 
 a img:hover {
-  -webkit-transform: scale(1.5,1.5);
-  transform: scale(1.5,1.5);
+  -webkit-transform: scale(1.8,1.8);
+  transform: scale(1.8,1.8);
   display: block;
   box-shadow: 10px 10px 95px 0px rgba(0,0,0,0.75);
   cursor: zoom-in;
   z-index: 99;
+  border-radius: 0;
 }
 
 img {
@@ -117,8 +118,8 @@ h2 {
 }
 h3 {
   text-align: center;
-  text-transform: uppercase;
-  font-family: "Fira Sans", sans-serif;
+  text-transform: lowercase;
+  font-family: Helvetica, Arial, sans-serif;
   color: #AAAAAA;
   font-weight: 600;
   font-size: 13px;
@@ -151,9 +152,17 @@ strong {
   flex-direction: row;
   align-items: stretch;
 }
+.col-one {
+  width: 45%;
+}
+.col-two {
+  width: 30%;
+}
+.col-three {
+  width: 25%;
+}
 .col-one, .col-two, .col-three {
   background-color: white;
-  width: 33.33%;
   padding-right: 20px;
   padding-left: 20px;
   /*border-right: 1px solid #AAAAAA;*/
@@ -216,9 +225,9 @@ img, .song {
   border-radius: 3px;
 }
 
-.profile {
+/*.profile {
   border-radius: 50%;
-}
+}*/
 audio {
   width: 90%;
 }
@@ -365,12 +374,4 @@ ul {
   .fullscreen {
   display: none;
   height: 9999%;
-  }
-
-  img:hover {
-    -webkit-transform: none;
-    transform: none;
-    display: block;
-    box-shadow: none;
-    z-index: 99;
   }
