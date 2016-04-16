@@ -164,9 +164,6 @@ strong {
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  animation-name: comeup;
-  animation-duration: .5s;
-  animation-fill-mode: forwards;
 }
 .col-one {
   width: 45%;
