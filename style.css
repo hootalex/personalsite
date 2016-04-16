@@ -99,6 +99,7 @@ h1 {
   box-shadow: -9px 9px 0px -4px rgba(0, 0, 0, 0.39);*/
   color: #85144b;
   font-smooth: never;
+  cursor: default;
   /*-webkit-font-smoothing : none;*/
 }
 h1::selection { background-color: transparent }
@@ -370,8 +371,12 @@ ul {
   audio {
     height: 45px;
   }
-
-  .fullscreen {
-  display: none;
-  height: 9999%;
+  a img:hover {
+    -webkit-transform: inherit;
+    transform: inherit;
+    display: block;
+    box-shadow: none;
+    cursor: default;
+    z-index: inherit;
+    border-radius: inherit;
   }
