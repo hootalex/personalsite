@@ -409,6 +409,6 @@ p {
     display: block;
     box-shadow: none;
     cursor: default;
-    z-index: 999;
+    z-index: 99;
     border-radius: inherit;
   }
