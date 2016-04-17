@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', function () {
     // Init
     wavesurfer.init({
         container: document.querySelector('#waveform'),
-        waveColor: '#7FDBFF',
-        progressColor: 'white',
+        waveColor: '#111111',
+        progressColor: 'blue',
         backend: 'MediaElement',
         hideScrollbar: 'true',
         cursorWidth: 0,
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     // Load audio from URL
-    wavesurfer.load('audio/codawaltzdegraded.mp3');
+    wavesurfer.load('audio/4200.mp3');
 
 
     // Play button

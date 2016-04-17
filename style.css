@@ -215,17 +215,17 @@ article {
   border-bottom: 1px solid #AAAAAA;
 }
 .song {
-  background-color: #2C2E51;
+  background-color: #F3F781;
   padding: 10px;
   text-align: center;
-  color: white;
+  color: #111111;
 }
 .playbutton {
   border: none;
   background-color: transparent;
   outline: none;
   width: 10%;
-  color: white;
+  color: #111111;
 }
 .player {
   display: flex;
@@ -235,7 +235,6 @@ article {
   width: 90%;
 }
 img, .song {
-  border-radius: 3px;
 }
 
 /*.profile {
@@ -259,13 +258,19 @@ ul {
         transform: scale(1,1);
     }
 }
-@keyframes comeup {
+@keyframes music {
     0% {
-        opacity: 0; padding-top: 10px;
+        background-color: lightgreen;
     }
     100% {
-        opacity: 1; padding-top: inherit;
+        background-color: #F3F781;
     }
+}
+.musicplay {
+  animation-name: music;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 @keyframes arrowdown {
     0% {
