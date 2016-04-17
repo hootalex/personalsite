@@ -28,7 +28,8 @@ a img:hover {
   transform: scale(1.8,1.8);
   display: block;
   cursor: zoom-in;
-  z-index: 99;
+  z-index: 9999;
+  position: relative;
   border-radius: 0;
   box-shadow: 0px 0px 40px -9px rgba(0,0,0,0.75);
 }
@@ -409,7 +410,5 @@ p {
     display: block;
     box-shadow: none;
     cursor: default;
-    z-index: 9999;
-    position: relative;
     border-radius: inherit;
   }
