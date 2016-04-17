@@ -16,7 +16,7 @@
 html {
 }
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Georgia, serif;
   line-height: 1.5;
   margin: 0;
   /*-webkit-font-smoothing: antialiased;*/
@@ -132,7 +132,7 @@ h2 {
 h3 {
   text-align: center;
   text-transform: lowercase;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Georgia, serif;
   color: #AAAAAA;
   font-weight: 600;
   font-size: 13px;
