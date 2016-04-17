@@ -233,6 +233,7 @@ article {
 }
 #waveform {
   width: 90%;
+  z-index: 1;
 }
 img, .song {
 }
