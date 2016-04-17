@@ -233,7 +233,6 @@ article {
 }
 #waveform {
   width: 90%;
-  z-index: 1;
 }
 img, .song {
 }
@@ -411,5 +410,6 @@ p {
     box-shadow: none;
     cursor: default;
     z-index: 9999;
+    position: relative;
     border-radius: inherit;
   }
