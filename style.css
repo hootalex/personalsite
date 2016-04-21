@@ -1,18 +1,7 @@
 /*Note to self: I'm using #111111 instead of black because it looks nicer on the screen.*/
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700);
-@font-face {
-    font-family: 'Flash';
-    src: url('fonts/flashef-light-webfont.eot');
-    src: url('fonts/flashef-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/flashef-light-webfont.woff2') format('woff2'),
-         url('fonts/flashef-light-webfont.woff') format('woff'),
-         url('fonts/flashef-light-webfont.ttf') format('truetype'),
-         url('fonts/flashef-light-webfont.svg#flashef_lightregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-/*@import url(https://fonts.googleapis.com/css?family=Fira+Sans);*/
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400);
 html {
 }
 body {
@@ -32,6 +21,7 @@ a img:hover {
   position: relative;
   border-radius: 0;
   box-shadow: 0px 0px 40px -9px rgba(0,0,0,0.75);
+  background-color: white;
 }
 
 img {
@@ -99,13 +89,12 @@ article {
   }
 
 h1 {
-  font-family: "Flash", sans-serif;
+  font-family: Georgia, serif;
   font-weight: 400;
   font-size: 30px;
   display: inline;
   padding: 10px;
   margin-left: 15px;
-  transform: rotate(-15deg);
   /*background-color: white;
   border: 1px solid #111111;
   box-shadow: -9px 9px 0px -4px rgba(0, 0, 0, 0.39);*/
@@ -144,14 +133,14 @@ strong {
   border-bottom: dashed #111111 1px;
 }
 #topbar {
-  width: 900px;
+  width: 950px;
   margin: auto;
   display: flex;
   justify-content: space-between;
-  /*border-bottom: 1px solid #AAAAAA;*/
+  border-bottom: 1px solid #AAAAAA;
 }
 #footer {
-  width: 900px;
+  width: 950px;
   margin: auto;
   padding-bottom: 20px;
   /*border-top: 1px solid #AAAAAA;*/
@@ -160,7 +149,7 @@ strong {
   margin-top: 30px;
 }
 .columns {
-  width: 900px;
+  width: 950px;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -216,7 +205,7 @@ article {
   border-bottom: 1px solid #AAAAAA;
 }
 .song {
-  background-color: #F3F781;
+  background-color:;
   padding: 10px;
   text-align: center;
   color: #111111;
@@ -258,20 +247,6 @@ ul {
     100% {
         transform: scale(1,1);
     }
-}
-@keyframes music {
-    0% {
-        background-color: lightgreen;
-    }
-    100% {
-        background-color: #F3F781;
-    }
-}
-.musicplay {
-  animation-name: music;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
 }
 @keyframes arrowdown {
     0% {
