@@ -100,11 +100,8 @@ h1 {
   box-shadow: -9px 9px 0px -4px rgba(0, 0, 0, 0.39);*/
   color: #85144b;
   font-smooth: never;
-  cursor: default;
   /*-webkit-font-smoothing : none;*/
 }
-h1::selection { background-color: transparent }
-h1::-moz-selection { background-color: transparent }
 
 h2 {
   display: inline;
@@ -293,44 +290,6 @@ ul {
   padding: 0;
   font-size: .8em;
 }
-
-.explorer ul {
-  list-style: none;
-}
-
-.explorer li {
-  border-bottom: 1px solid #AAAAAA;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  cursor: default;
-}
-
-.selected {
-  background-color: #EBF4FA;
-}
-
-.explorer li:hover {
-  background-color: #EBF4FA;
-}
-
-.explorer li:hover i {
-  color: #111111;
-}
-
-.explorer li:active {
-  background-color: white;
-}
-
-.explorer a {
-  color: #111111;
-  cursor: default;
-}
-
-.explorer li i {
-  color: #AAAAAA;
-}
-
-/*Done styling the file explorer.*/
 
 @media all and (max-width: 1100px) {
   .fullscreen {
