@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400);
 html {
+  background-color: #F0F0F0;
 }
 body {
   font-family: Georgia, serif;
@@ -159,7 +160,6 @@ strong {
   width: 33.33%;
 }
 .col-one, .col-two, .col-three {
-  background-color: white;
   padding-right: 20px;
   padding-left: 20px;
   /*border-right: 1px solid #AAAAAA;*/
