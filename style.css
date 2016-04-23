@@ -10,7 +10,7 @@ body {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-a img:hover {
+/*a img:hover {
   -webkit-transform: scale(1.6,1.6);
   transform: scale(1.6,1.6);
   display: block;
@@ -20,7 +20,7 @@ a img:hover {
   border-radius: 0;
   box-shadow: 0px 0px 40px -9px rgba(0,0,0,0.75);
   background-color: white;
-}
+}*/
 
 img {
     transition: all .2s;
@@ -150,13 +150,13 @@ strong {
   align-items: stretch;
 }
 .col-one {
-  width: 45%;
+  width: 33.33%;
 }
 .col-two {
-  width: 30%;
+  width: 33.33%;
 }
 .col-three {
-  width: 25%;
+  width: 33.33%;
 }
 .col-one, .col-two, .col-three {
   background-color: white;
@@ -222,9 +222,9 @@ article {
 img, .song {
 }
 
-/*.profile {
+.profile {
   border-radius: 50%;
-}*/
+}
 audio {
   width: 90%;
 }
@@ -336,11 +336,11 @@ p {
   audio {
     height: 45px;
   }
-  a img:hover {
+  /*a img:hover {
     -webkit-transform: inherit;
     transform: inherit;
     display: block;
     box-shadow: none;
     cursor: default;
     border-radius: inherit;
-  }
+  }*/
