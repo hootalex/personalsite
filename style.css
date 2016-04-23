@@ -131,7 +131,7 @@ strong {
   margin: auto;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #AAAAAA;
+  /*border-bottom: 1px solid #AAAAAA;*/
 }
 #footer {
   width: 950px;
