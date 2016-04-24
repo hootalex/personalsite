@@ -85,7 +85,9 @@ img {
   padding-bottom: 50px;
 }
 
-
+.flexdisplay {
+  width: 100%;
+}
 .flexdisplay p {
   margin: 30px;
   max-width: 100%;
@@ -252,3 +254,4 @@ h1 {
   }
 
 }
+
