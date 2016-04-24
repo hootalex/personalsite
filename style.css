@@ -57,7 +57,7 @@ p {
   margin: auto;
   overflow: auto;
   text-align: center;
-  background: url(img/b.jpg) no-repeat center center;
+  background: url(img/b.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
