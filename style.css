@@ -154,69 +154,8 @@ h1 {
   position: absolute;
   color: white;
   font-weight: 400;
-<<<<<<< Updated upstream
-  margin-right: 25px;
-  margin-top: 45px;
-  color: #AAAAAA;
-  cursor: default;
-}
-
-.center {
-  text-align: center;
-}
-h3 {
-  text-align: center;
-  text-transform: lowercase;
-  font-family: Georgia, serif;
-  color: #AAAAAA;
-  font-weight: 600;
-  font-size: 13px;
-  /*font-smooth: never;*/
-  /*-webkit-font-smoothing : none;*/
-}
-strong {
-  border-bottom: dashed black 1px;
-}
-#topbar {
-  width: 950px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  /*border-bottom: 1px solid #AAAAAA;*/
-}
-#footer {
-  width: 950px;
-  margin: auto;
-  padding-bottom: 20px;
-  /*border-top: 1px solid #AAAAAA;*/
-  text-align: center;
-  font-size: 13px;
-  margin-top: 30px;
-}
-.columns {
-  width: 950px;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-}
-.col-one {
-  width: 33.33%;
-}
-.col-two {
-  width: 33.33%;
-}
-.col-three {
-  width: 33.33%;
-}
-.col-one, .col-two, .col-three {
-  padding-right: 20px;
-  padding-left: 20px;
-  /*border-right: 1px solid #AAAAAA;*/
-=======
   margin-top: 0;
   padding: 50px;
->>>>>>> Stashed changes
 }
 
 .info p:nth-of-type(1):first-letter {
