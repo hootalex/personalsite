@@ -241,11 +241,16 @@ h1 {
 
   .fullscreeniii {
     display: block;
-    height: 50vh;
-    background: url(img/b.jpg) no-repeat center center scroll;
-    background-size: cover;
-    width: 100vw;
+    height: 100vh;
+    width: 30vw;
     max-width: 100%;
+    margin: auto;
+    overflow: auto;
+    text-align: center;
+    display:table-cell;
+    vertical-align: middle;
+    background: url(img/b.jpg) no-repeat center center;
+    background-size: cover;
   }
 
 }
