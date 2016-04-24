@@ -226,39 +226,3 @@ h1 {
     from {width: 10px;}
     to {width: 30vw;}
 }
-
-@media (max-width: 600px) {
-  .fullscreen {
-      width: 500px;
-  }
-
-  .fullscreenii {
-    display: block;
-    width: 500px;
-    display: table-row;
-    height: 100%;
-  }
-
-  .fullscreeniii {
-    display: block;
-    height: 50vh;
-    width: 500px;
-    max-width: 100%;
-    margin: auto;
-    overflow: auto;
-    text-align: center;
-    display:table-cell;
-    vertical-align: middle;
-    background: url(img/b.jpg) no-repeat center center;
-    background-size: cover;
-  }
-
-  .flexdisplay {
-    width: 500px;
-  }
-  
-  html {
-    font-size: 16px;
-  }
-
-}
