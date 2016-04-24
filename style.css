@@ -226,3 +226,23 @@ h1 {
     from {width: 10px;}
     to {width: 30vw;}
 }
+
+@media (max-width: 600px) {
+  .fullscreen {
+      width: 100vw;
+  }
+
+  .fullscreenii {
+    display: block;
+    width: 10px;
+    display: table-row;
+    height: 100%;
+  }
+
+  .fullscreeniii {
+    height: 50vh;
+    background: url(img/b.jpg) no-repeat center center scroll;
+    background-size: cover;
+  }
+
+}
