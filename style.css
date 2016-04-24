@@ -53,6 +53,7 @@ img {
   margin: auto;
   overflow: auto;
   text-align: center;
+  display: table-row;
   background: url(img/b.jpg) no-repeat center center fixed;
   background-size: cover;
 }
