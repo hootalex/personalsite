@@ -11,6 +11,16 @@
   <script src="littlethings.js"></script>
   <script src="wavesurfer.min.js"></script>
   <script src="audioplayer.js"></script>
+  <script src="typed.js"></script>
+  <script>
+  $(function(){
+      $(".element").typed({
+        strings: ["I had a dream I had dark blue hair"],
+        typeSpeed: 60,
+        startDelay: 2000,
+      });
+  });
+</script>
 </head>
 
 <body>
@@ -23,7 +33,7 @@
 
 <div class="fullscreenii">
   <div class="infoii">
-  <p>I had a dream I had dark blue hair</p>
+  <p><div class="element"></div></p>
   </div>
 </div>
 <div class="flexdisplay">
