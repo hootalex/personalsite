@@ -253,5 +253,10 @@ h1 {
     background-size: cover;
   }
 
+  .flexdisplay {
+    width: 500px;
+  }
+
 }
+
 
