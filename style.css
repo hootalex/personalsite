@@ -90,8 +90,6 @@ img {
 }
 .flexdisplay p {
   margin: 50px;
-  max-width: 100%;
-  overflow: auto;
 }
 
 .info {
