@@ -78,18 +78,9 @@ p {
 .player {
   width: 100%;
   max-width: 100%;
-  display: flex;
-  flex-direction: row-reverse;
+  margin: auto;
 }
 
-.flexdisplay {
-  display: block;
-  text-align: center;
-  width: 100%;
-  margin: auto;
-  background-color: white;
-  color: black;
-}
 .end {
   display: block;
   text-align: center;
@@ -189,16 +180,23 @@ h1 {
   color: white;
 }
 .playbutton {
+  display: inline;
   border: none;
   background-color: transparent;
   outline: none;
   width: 15px;
   color: black;
-  padding-left: 30px;
+  margin: auto;
+  transition: .2s;
 }
+.playbutton:hover {
+  cursor: pointer;
+  color: gray;
+}
+
 #waveform {
-  width: 100%;
-  padding: 30px;
+  width: 96%;
+  margin: auto;
 }
 
 .profile {
