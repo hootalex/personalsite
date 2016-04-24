@@ -1,6 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400);
 html {
+  background-color: white;
+  font-smooth: never;
+  -webkit-font-smoothing: antialiased;
+
 }
 body {
   font-family: Georgia, serif;
@@ -10,65 +14,122 @@ body {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-/*a img:hover {
-  -webkit-transform: scale(1.6,1.6);
-  transform: scale(1.6,1.6);
-  display: block;
-  cursor: zoom-in;
-  z-index: 9999;
-  position: relative;
-  border-radius: 0;
-  box-shadow: 0px 0px 40px -9px rgba(0,0,0,0.75);
-  background-color: white;
-}*/
-
 img {
     transition: all .2s;
 }
 
 .fullscreen {
   display: block;
-  background-color: black;
   height: 100vh;
-  width: 100vw;
+  width: 70vw;
   max-width:100%;
   margin: auto;
-  background-color: white;
   overflow: auto;
   text-align: center;
   display:table-cell;
-  vertical-align:bottom;
-  background: url(img/cover.jpg) no-repeat center center fixed;
+  vertical-align: middle;
+  background: url(img/8.jpg) no-repeat center center;
   background-size: cover;
 }
 
-.hint {
-  color: yellow;
-  font-size: 30px;
-  font-weight: bold;
-  font-family: Helvetica, Arial, sans-serif;
-  animation-name: arrowdown;
-  animation-duration: 9s;
-  opacity: 0;
-  animation-iteration-count: 1;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
-  line-height: 150px;
-  font-smooth: never;
--webkit-font-smoothing : none;
+.fullscreenii {
+  display: block;
+  height: 100vh;
+  width: 30vw;
+  max-width: 100%;
+  margin: auto;
+  overflow: auto;
+  text-align: center;
+  display:table-cell;
+  vertical-align: middle;
+  background: url(img/house.jpg) no-repeat center center;
+  background-size: cover;
 }
 
+.infoii i {
+  font-size: 25px;
+  line-height: 2;
+}
 
-a:link {
-  color: #0074D9;
-  text-decoration: none;
+.end a:link {color: black; text-decoration: none; transition: .2s;}
+.end a:visited {color: black; text-decoration: none;}
+.end a:hover {color: salmon; text-decoration: none;}
+
+.coliii {
+  display: inline-block;
+  width: 33.33%;
+  background-color: white;
 }
-a:visited {
-  color: #0074D9;
-  text-decoration: none;
+.player {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
 }
-a:hover {
+
+.flexdisplay {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  background-color: white;
   color: black;
+}
+.end {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+
+.flexdisplay p {
+  padding: 30px;
+}
+
+.info {
+width: 290px;
+text-align: left;
+padding: 50px;
+color: white;
+}
+
+.infoalt {
+width: 290px;
+text-align: left;
+padding: 50px;
+color: white;
+}
+
+.infoii {
+width: 290px;
+margin: auto;
+text-align: center;
+padding: 50px;
+color: white;
+}
+
+.infoiii {
+text-align: left;
+padding: 50px;
+color: black;
+border-right: 1px solid white;
+border-left: 1px solid white;
+background-color: white;
+overflow: auto;
+}
+
+.info a:link {
+  color: white;
+}
+
+.info a:visited {
+  color: white;
+}
+
+.info a:hover {
+  color: white;
   text-decoration: none;
 }
 article {
@@ -87,23 +148,13 @@ article {
   }
 
 h1 {
-  font-family: Georgia, serif;
-  font-weight: 400;
-  font-size: 30px;
   display: inline;
-  padding: 10px;
-  margin-left: 15px;
-  /*background-color: white;
-  border: 1px solid #111111;
-  box-shadow: -9px 9px 0px -4px rgba(0, 0, 0, 0.39);*/
-  font-smooth: never;
-  /*-webkit-font-smoothing : none;*/
-}
-
-h2 {
-  display: inline;
-  font-size: .9em;
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+  position: absolute;
+  color: white;
   font-weight: 400;
+<<<<<<< Updated upstream
   margin-right: 25px;
   margin-top: 45px;
   color: #AAAAAA;
@@ -162,63 +213,40 @@ strong {
   padding-right: 20px;
   padding-left: 20px;
   /*border-right: 1px solid #AAAAAA;*/
+=======
+  margin-top: 0;
+  padding: 50px;
+>>>>>>> Stashed changes
 }
 
-.columns div:nth-child(3) {
-  border-right: none
-}
-.columns img {
-  width: 100%;
-  display: block;
-  margin: auto;
-}
-.about p:nth-of-type(1):first-letter {
+.info p:nth-of-type(1):first-letter {
   float: left;
   font-family: Georgia, serif;
   color: rgb(51, 51, 51);
-  font-size: 100px;
+  font-size: 90px;
   line-height: 60px;
-  margin-top: 4px;
   margin-right: 8px;
-  margin-left: 5px;
+  margin-top: 8px;
   border-image-source: initial;
   border-image-slice: initial;
   border-image-width: initial;
   border-image-outset: initial;
   border-image-repeat: initial;
   padding: 20px;
-  border: 1px solid black;
-  background-color: white;
-  box-shadow: -9px 9px 0px -4px rgba(0, 0, 0, 0.39);
-  color: black;
-}
-
-article {
-  font-size: .9em;
-  padding-bottom: 5px;
-  border-bottom: 1px dotted #AAAAAA;
-}
-.song {
-  background-color:;
-  padding: 10px;
-  text-align: center;
-  color: black;
+  border: 1px solid white;
+  color: white;
 }
 .playbutton {
   border: none;
   background-color: transparent;
   outline: none;
-  width: 10%;
+  width: 15px;
   color: black;
-}
-.player {
-  display: flex;
-  flex-direction: row-reverse;;
+  padding-left: 30px;
 }
 #waveform {
-  width: 90%;
-}
-img, .song {
+  width: 100%;
+  padding: 30px;
 }
 
 .profile {
@@ -230,116 +258,3 @@ audio {
 ul {
   list-style: square;
 }
-.errorshake { animation: shake .4s linear;
-}
-.flyin { animation: flyin .4s ease;
-}
-@keyframes flyin {
-    0% {
-        transform: scale(1,.8);
-    }
-    100% {
-        transform: scale(1,1);
-    }
-}
-@keyframes arrowdown {
-    0% {
-        opacity: 0;
-    }
-    10% {
-        opacity: 0;
-    }
-    11% { opacity: 1;
-    }
-    80% { opacity: 1;
-    }
-    99% { opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-@keyframes shake {
-    8%, 41% {
-        transform: translateX(-10px);
-    }
-    25%, 58% {
-        transform: translateX(10px);
-    }
-    75% {
-        transform: translateX(-5px);
-    }
-    92% {
-        transform: translateX(5px);
-    }
-    0%, 100% {
-        transform: translateX(0);
-    }
-}
-
-/*All the stuff that styles my imaginary file explorer.*/
-.explorer {
-  line-height: 2;
-  list-style: none;
-  font-family: Lucida Grand, Segoe, Verdana, sans-serif;
-  width: 900px;
-  margin: auto;
-  padding: 0;
-  font-size: .8em;
-}
-
-@media all and (max-width: 1100px) {
-  .fullscreen {
-  display: none;
-  height: 9999%;
-  }
-}
-
-@media all and (max-width:700px) {
-  body {
-    background-color: white;
-  }
-  #topbar {
-    width: 100%;
-  }
-  #footer {
-    width: 100%;
-  }
-  .columns {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-  }
-  .col-one, .col-two, .col-three {
-    background-color: white;
-    width: 90%;
-    margin: auto;
-  }
-  .explorer {
-    width: 100%;
-  }
-p {
-    font-size: 17px;
-  }
-
-  li {
-      font-size: 17px;
-    }
-  html, body {
-    background-image: none;
-  }
-  .profile {
-    border-radius: 50%;
-  }
-  audio {
-    height: 45px;
-  }
-  /*a img:hover {
-    -webkit-transform: inherit;
-    transform: inherit;
-    display: block;
-    box-shadow: none;
-    cursor: default;
-    border-radius: inherit;
-  }*/
