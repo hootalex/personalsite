@@ -12,6 +12,7 @@
   <script src="wavesurfer.min.js"></script>
   <script src="audioplayer.js"></script>
   <script src="typed.js"></script>
+  <script src="jquery.favicon.chameleon.js"></script>
   <script>
   $(function(){
       $(".element").typed({
@@ -20,6 +21,11 @@
         startDelay: 2000,
       });
   });
+  $(function() {
+        $(this).faviconChameleon({
+          services: ["twitter", "gmail", "tumblr"]
+        });
+      })
 </script>
 </head>
 
