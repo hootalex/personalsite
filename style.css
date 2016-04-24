@@ -195,6 +195,8 @@ h1 {
   width: 15px;
   color: black;
   padding-left: 30px;
+  position: relative;
+  z-index: 999;
 }
 #waveform {
   width: 100%;
