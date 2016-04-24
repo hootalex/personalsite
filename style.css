@@ -132,20 +132,6 @@ overflow: auto;
   color: white;
   text-decoration: none;
 }
-article {
-  color: black;
-}
-
-.hide {
-  display: none;
-}
-
-.folder {
-  display: none;
-}
-  .show {
-    display: block;
-  }
 
 h1 {
   display: inline;
@@ -210,4 +196,9 @@ h1 {
 .element {
   display: inline;
   padding-left: 5px;
+}
+
+@keyframes slide {
+    from {width: 10px;}
+    to {width: 30vw;}
 }
