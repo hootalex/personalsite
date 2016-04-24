@@ -91,7 +91,7 @@ p {
 
 
 .flexdisplay p {
-  padding: 30px;
+  margin: 30px;
 }
 
 .info {
@@ -240,7 +240,7 @@ h1 {
   }
 
   .fullscreeniii {
-    display: none;
+    display: block;
     height: 50vh;
     background: url(img/b.jpg) no-repeat center center scroll;
     background-size: cover;
