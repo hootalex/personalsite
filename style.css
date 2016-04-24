@@ -240,6 +240,7 @@ h1 {
   }
 
   .fullscreeniii {
+    display: block;
     height: 50vh;
     background: url(img/b.jpg) no-repeat center center scroll;
     background-size: cover;
