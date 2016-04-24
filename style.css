@@ -18,10 +18,6 @@ img {
     transition: all .2s;
 }
 
-p {
-  font-size: 16px;
-}
-
 .fullscreen {
   display: block;
   height: 100vh;
@@ -92,6 +88,8 @@ p {
 
 .flexdisplay p {
   margin: 30px;
+  max-width: 100%;
+  overflow: auto;
 }
 
 .info {
