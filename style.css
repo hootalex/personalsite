@@ -189,14 +189,14 @@ h1 {
   color: white;
 }
 .playbutton {
+  position: absolute;
+  z-index: 999;
   border: none;
   background-color: transparent;
   outline: none;
   width: 15px;
   color: black;
   padding-left: 30px;
-  position: relative;
-  z-index: 999;
 }
 #waveform {
   width: 100%;
