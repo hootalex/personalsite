@@ -49,6 +49,17 @@ p {
   background: url(img/housep.jpg) no-repeat center center;
   background-size: cover;
 }
+.fullscreeniii {
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  margin: auto;
+  overflow: auto;
+  text-align: center;
+  background: url(img/shop.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
 
 .infoii i {
   font-size: 25px;
@@ -97,6 +108,18 @@ width: 290px;
 text-align: left;
 padding: 50px;
 color: white;
+}
+
+.news {
+  padding-top: 50px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.news:hover {
+  padding-top: 50px;
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
 }
 
 .infoalt {
