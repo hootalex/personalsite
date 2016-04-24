@@ -18,6 +18,10 @@ img {
     transition: all .2s;
 }
 
+p {
+  font-size: 16px;
+}
+
 .fullscreen {
   display: block;
   height: 100vh;
