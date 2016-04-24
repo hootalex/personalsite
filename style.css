@@ -256,5 +256,9 @@ h1 {
   .flexdisplay {
     width: 500px;
   }
+  
+  html {
+    font-size: 16px;
+  }
 
 }
