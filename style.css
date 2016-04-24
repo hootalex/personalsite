@@ -229,12 +229,12 @@ h1 {
 
 @media (max-width: 600px) {
   .fullscreen {
-      width: 100%;
+      width: 100vw;
   }
 
   .fullscreenii {
     display: block;
-    width: 100%;
+    width: 100vw;
     display: table-row;
     height: 100%;
   }
@@ -258,5 +258,3 @@ h1 {
   }
 
 }
-
-
