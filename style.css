@@ -47,13 +47,13 @@ img {
 }
 .fullscreeniii {
   display: block;
-  height: 100vh;
+  height: 10vh;
   width: 100vw;
   max-width: 100%;
   margin: auto;
   overflow: auto;
   text-align: center;
-  background: url(img/b.jpg) no-repeat center center scroll;
+  background: url(img/b.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
