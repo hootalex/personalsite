@@ -88,17 +88,12 @@ img {
   padding-bottom: 30px;
 }
 
-.flexdisplay {
-  width: 100%;
-}
+
 .flexdisplay p {
-<<<<<<< 2656a04bd4f5d324d134728895ba9aba13864471
   margin: 50px;
-=======
   width: 500px;
   padding: 50px;
   margin: auto;
->>>>>>> ~
 }
 
 .info {
@@ -186,11 +181,7 @@ h1 {
   border: none;
   background-color: transparent;
   outline: none;
-<<<<<<< 2656a04bd4f5d324d134728895ba9aba13864471
-  color: black;
-=======
   color: #111111;
->>>>>>> ~
   margin: auto;
   transition: .2s;
 }
@@ -200,11 +191,7 @@ h1 {
 }
 
 #waveform {
-<<<<<<< 2656a04bd4f5d324d134728895ba9aba13864471
-  width: 70%;
-=======
   width: 500px;
->>>>>>> ~
   margin: auto;
 }
 
