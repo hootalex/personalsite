@@ -126,7 +126,6 @@ h1 {
 .info p:nth-of-type(1):first-letter {
   float: left;
   font-family: Georgia, serif;
-  color: rgb(51, 51, 51);
   font-size: 90px;
   line-height: 60px;
   margin-right: 8px;
