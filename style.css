@@ -48,13 +48,13 @@ img {
 }
 .fullscreeniii {
   display: block;
-  height: 30vh;
+  height: 50vh;
   width: 100vw;
   max-width: 100%;
   margin: auto;
   overflow: auto;
   text-align: center;
-  background: url(img/cityisland.JPG) no-repeat center center;
+  background: url(img/cityisland.JPG) no-repeat center top;
   background-size: cover;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
