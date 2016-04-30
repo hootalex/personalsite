@@ -59,25 +59,9 @@ img {
   filter: grayscale(100%);
 }
 
-.infoii i {
-  font-size: 25px;
-  line-height: 2;
-}
-
 .end a:link {color: black; text-decoration: none; transition: .2s;}
 .end a:visited {color: black; text-decoration: none;}
 .end a:hover {color: blue; text-decoration: none;}
-
-.coliii {
-  display: inline-block;
-  width: 33.33%;
-  background-color: white;
-}
-.player {
-  width: 100%;
-  max-width: 100%;
-  margin: auto;
-}
 
 .end {
   display: block;
@@ -96,25 +80,6 @@ img {
 }
 
 .info {
-width: 290px;
-text-align: left;
-padding: 50px;
-color: white;
-}
-
-.news {
-  padding-top: 50px;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-}
-
-.news:hover {
-  padding-top: 50px;
-  filter: grayscale(0%);
-  -webkit-filter: grayscale(0%);
-}
-
-.infoalt {
 width: 290px;
 text-align: left;
 padding: 50px;
