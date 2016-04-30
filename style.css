@@ -92,6 +92,7 @@ margin: auto;
 text-align: center;
 padding: 50px;
 color: lightblue;
+transform: rotate(-45deg);
 }
 
 #playandpause {
