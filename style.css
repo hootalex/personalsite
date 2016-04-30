@@ -92,13 +92,13 @@ img {
   width: 100%;
 }
 .flexdisplay p {
-<<<<<<< HEAD
+<<<<<<< 2656a04bd4f5d324d134728895ba9aba13864471
+  margin: 50px;
+=======
   width: 500px;
   padding: 50px;
   margin: auto;
-=======
-  margin: 50px;
->>>>>>> origin/gh-pages
+>>>>>>> ~
 }
 
 .info {
@@ -186,11 +186,11 @@ h1 {
   border: none;
   background-color: transparent;
   outline: none;
-<<<<<<< HEAD
-  color: #111111;
-=======
+<<<<<<< 2656a04bd4f5d324d134728895ba9aba13864471
   color: black;
->>>>>>> origin/gh-pages
+=======
+  color: #111111;
+>>>>>>> ~
   margin: auto;
   transition: .2s;
 }
@@ -200,11 +200,11 @@ h1 {
 }
 
 #waveform {
-<<<<<<< HEAD
-  width: 500px;
-=======
+<<<<<<< 2656a04bd4f5d324d134728895ba9aba13864471
   width: 70%;
->>>>>>> origin/gh-pages
+=======
+  width: 500px;
+>>>>>>> ~
   margin: auto;
 }
 
