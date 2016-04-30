@@ -48,7 +48,7 @@ img {
 }
 .fullscreeniii {
   display: block;
-  height: 100vh;
+  height: 30vh;
   width: 100vw;
   max-width: 100%;
   margin: auto;
@@ -92,9 +92,13 @@ img {
   width: 100%;
 }
 .flexdisplay p {
+<<<<<<< HEAD
   width: 500px;
   padding: 50px;
   margin: auto;
+=======
+  margin: 50px;
+>>>>>>> origin/gh-pages
 }
 
 .info {
@@ -182,7 +186,11 @@ h1 {
   border: none;
   background-color: transparent;
   outline: none;
+<<<<<<< HEAD
   color: #111111;
+=======
+  color: black;
+>>>>>>> origin/gh-pages
   margin: auto;
   transition: .2s;
 }
@@ -192,7 +200,11 @@ h1 {
 }
 
 #waveform {
+<<<<<<< HEAD
   width: 500px;
+=======
+  width: 70%;
+>>>>>>> origin/gh-pages
   margin: auto;
 }
 
