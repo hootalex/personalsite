@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400);
 html {
-  background-color: white;
+  background-color: #F3F2F0;
+  color: #111111;
   font-smooth: never;
   -webkit-font-smoothing: antialiased;
 
@@ -16,10 +17,6 @@ body {
 
 img {
     transition: all .2s;
-}
-
-p {
-  font-size: 16px;
 }
 
 .fullscreen {
@@ -57,8 +54,10 @@ p {
   margin: auto;
   overflow: auto;
   text-align: center;
-  background: url(img/b.jpg) no-repeat center center fixed;
+  background: url(img/cityisland.JPG) no-repeat center center;
   background-size: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .infoii i {
@@ -66,8 +65,8 @@ p {
   line-height: 2;
 }
 
-.end a:link {color: black; text-decoration: none; transition: .2s;}
-.end a:visited {color: black; text-decoration: none;}
+.end a:link {color: #111111; text-decoration: none; transition: .2s;}
+.end a:visited {color: #111111; text-decoration: none;}
 .end a:hover {color: salmon; text-decoration: none;}
 
 .coliii {
@@ -86,12 +85,16 @@ p {
   text-align: center;
   width: 100%;
   margin: auto;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
-
+.flexdisplay {
+  width: 100%;
+}
 .flexdisplay p {
-  padding: 30px;
+  width: 500px;
+  padding: 50px;
+  margin: auto;
 }
 
 .info {
@@ -128,14 +131,9 @@ padding: 50px;
 color: white;
 }
 
-.infoiii {
-text-align: left;
-padding: 50px;
-color: black;
-border-right: 1px solid white;
-border-left: 1px solid white;
-background-color: white;
-overflow: auto;
+#playandpause {
+  font-size: 20px;
+  width: 20px;
 }
 
 .info a:link {
@@ -184,8 +182,7 @@ h1 {
   border: none;
   background-color: transparent;
   outline: none;
-  width: 15px;
-  color: black;
+  color: #111111;
   margin: auto;
   transition: .2s;
 }
@@ -195,12 +192,8 @@ h1 {
 }
 
 #waveform {
-  width: 96%;
+  width: 500px;
   margin: auto;
-}
-
-.profile {
-  border-radius: 50%;
 }
 
 .typed-cursor{
@@ -209,6 +202,14 @@ h1 {
     -moz-animation: blink 1s 7;
     animation: blink 1s 7;
     animation-fill-mode: forwards;
+}
+
+.player {
+  width: 90%;
+  display: flex;
+  padding: 50px;
+  flex-direction: row;
+  justify-content: space-between;
 }
 @keyframes blink{
     0% { opacity:0; }
