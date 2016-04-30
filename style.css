@@ -179,8 +179,3 @@ h1 {
   display: inline;
   padding-left: 5px;
 }
-
-@keyframes slide {
-    from {width: 10px;}
-    to {width: 30vw;}
-}
