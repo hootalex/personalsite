@@ -53,7 +53,7 @@ img {
   margin: auto;
   overflow: auto;
   text-align: center;
-  background: url(img/fitterhappier.png) no-repeat center top fixed, url(img/upto.png) no-repeat center top;
+  background: url(img/cityisland.jpg) no-repeat center top;
   background-size: cover;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
