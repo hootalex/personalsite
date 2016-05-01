@@ -53,10 +53,11 @@ img {
   margin: auto;
   overflow: auto;
   text-align: center;
-  background: url(img/cityisland.JPG) no-repeat center top;
+  background: url(img/fitterhappier.png) no-repeat center top fixed, url(img/upto.png) no-repeat center top;
   background-size: cover;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+  background-blend-mode: darken;
 }
 
 .end a:link {color: black; text-decoration: none; transition: .2s;}
@@ -92,7 +93,7 @@ margin: auto;
 text-align: center;
 padding: 50px;
 color: lightblue;
-transform: rotate(-45deg);
+/*transform: rotate(-45deg);*/
 }
 
 #playandpause {
