@@ -18,6 +18,14 @@ img {
     transition: all .2s;
 }
 
+.flex {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+}
+
 .fullscreen {
   display: block;
   height: 100vh;
@@ -147,8 +155,11 @@ h1 {
   background-color: transparent;
   outline: none;
   color: black;
-  margin: auto;
   transition: .2s;
+}
+
+hr {
+  max-width: 500px;
 }
 .playbutton:hover {
   cursor: pointer;
@@ -156,7 +167,7 @@ h1 {
 }
 
 #waveform {
-  width: 500px;
+  width: 450px;
   margin: auto;
 }
 
