@@ -54,7 +54,7 @@ img {
 }
 .fullscreeniii {
   display: block;
-  height: 100vh;
+  height: 50vh;
   width: 100vw;
   max-width: 100%;
   margin: auto;
