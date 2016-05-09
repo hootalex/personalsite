@@ -32,7 +32,7 @@ img {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
-  background: url(img/5p.jpg) no-repeat center center;
+  background: url(img/6.jpg) no-repeat center center;
   background-size: cover;
 }
 .fullscreenii {
@@ -47,6 +47,10 @@ img {
   vertical-align: middle;
   background: url(img/coverart.jpg) no-repeat center center;
   background-size: cover;
+}
+
+.infoii {
+  color: white;
 }
 .fullscreeniii {
   display: block;
