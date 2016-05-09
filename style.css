@@ -4,20 +4,17 @@ html {
   background-color: white;
   font-smooth: never;
   -webkit-font-smoothing: antialiased;
-
 }
 body {
   font-family: Georgia, serif;
   line-height: 1.5;
   margin: 0;
   /*-webkit-font-smoothing: antialiased;*/
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
 img {
-    transition: all .2s;
+  transition: all .2s;
 }
-
 .flex {
   width: 500px;
   display: flex;
@@ -25,21 +22,19 @@ img {
   justify-content: space-around;
   margin: auto;
 }
-
 .fullscreen {
   display: block;
   height: 100vh;
   width: 70vw;
-  max-width:100%;
+  max-width: 100%;
   margin: auto;
   overflow: auto;
   text-align: center;
-  display:table-cell;
+  display: table-cell;
   vertical-align: middle;
   background: url(img/5p.jpg) no-repeat center center;
   background-size: cover;
 }
-
 .fullscreenii {
   display: block;
   height: 100vh;
@@ -48,30 +43,52 @@ img {
   margin: auto;
   overflow: auto;
   text-align: center;
-  display:table-cell;
+  display: table-cell;
   vertical-align: middle;
-  background: url(img/housep.jpg) no-repeat center center;
+  background: url(img/coverart.jpg) no-repeat center center;
   background-size: cover;
 }
 .fullscreeniii {
   display: block;
-  height: 50vh;
+  height: 100vh;
   width: 100vw;
   max-width: 100%;
   margin: auto;
-  overflow: auto;
+  overflow: hidden;
   text-align: center;
-  background: url(img/bluebird.JPG) no-repeat center top;
+  /*background: url(img/bluebird.JPG) no-repeat center top;
   background-size: cover;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  background-blend-mode: darken;
+  background-color: pink;
+  background-blend-mode: overlay;*/
 }
-
-.end a:link {color: black; text-decoration: none; transition: .2s;}
-.end a:visited {color: black; text-decoration: none;}
-.end a:hover {color: blue; text-decoration: none;}
-
+.flexdisplay a:link {
+  color: blue;
+  text-decoration: none;
+  transition: .2s;
+}
+.flexdisplay a:hover {
+  background-color: yellow;
+  text-decoration: none;
+  transition: .2s;
+}
+.flexdisplay a:visited {
+  color: blue;
+  text-decoration: none;
+  transition: .2s;
+}
+.end a:link {
+  color: black;
+  text-decoration: none;
+  transition: .2s;
+}
+.end a:visited {
+  color: black;
+  text-decoration: none;
+}
+.end a:hover {
+  color: salmon;
+  text-decoration: none;
+}
 .end {
   display: block;
   text-align: center;
@@ -79,49 +96,40 @@ img {
   margin: auto;
   padding-bottom: 30px;
 }
-
-
 .flexdisplay p {
   margin: 50px;
   width: 500px;
   padding: 50px;
   margin: auto;
 }
-
 .info {
-width: 290px;
-text-align: left;
-padding: 50px;
-color: white;
+  width: 290px;
+  text-align: left;
+  padding: 50px;
+  color: white;
 }
-
 .infoii {
-width: 290px;
-margin: auto;
-text-align: center;
-padding: 50px;
-color: lightblue;
-/*transform: rotate(-45deg);*/
+  margin: auto;
+  font-size: 50px;
+  text-align: center;
+  font-style: italic;
+  color: salmon;
+  /*transform: rotate(-45deg);*/
 }
-
 #playandpause {
   font-size: 20px;
   width: 20px;
 }
-
 .info a:link {
   color: white;
 }
-
 .info a:visited {
   color: white;
 }
-
 .info a:hover {
   color: white;
   text-decoration: none;
 }
-
 h1 {
   display: inline;
   font-size: 20px;
@@ -132,7 +140,6 @@ h1 {
   margin-top: 0;
   padding: 50px;
 }
-
 .info p:nth-of-type(1):first-letter {
   float: left;
   font-family: Georgia, serif;
@@ -157,7 +164,6 @@ h1 {
   color: black;
   transition: .2s;
 }
-
 hr {
   max-width: 500px;
 }
@@ -165,27 +171,36 @@ hr {
   cursor: pointer;
   color: gray;
 }
-
 #waveform {
   width: 450px;
   margin: auto;
 }
-
-.typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 1s 7;
-    -moz-animation: blink 1s 7;
-    animation: blink 1s 7;
-    animation-fill-mode: forwards;
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 1s 7;
+  -moz-animation: blink 1s 7;
+  animation: blink 1s 7;
+  animation-fill-mode: forwards;
 }
-
-@keyframes blink{
-    0% { opacity:0; }
-    48% { opacity:0; }
-    49% { opacity:1; }
-    50% { opacity:1; }
-    99% { opacity:1; }
-    100% { opacity:0; }
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  48% {
+    opacity: 0;
+  }
+  49% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 .element {
   display: inline;

@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
     wavesurfer.init({
         container: document.querySelector('#waveform'),
         waveColor: 'black',
-        progressColor: 'gray',
+        progressColor: 'salmon',
         backend: 'MediaElement',
         hideScrollbar: 'true',
         cursorWidth: 0,
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     // Load audio from URL
-    wavesurfer.load('audio/new.mp3');
+    wavesurfer.load('audio/Secretary%20Desk%20-%20Robin.m4a');
 
 
     // Play button

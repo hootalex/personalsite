@@ -29,6 +29,12 @@ $(document).ready(function() {
     $("#playandpause").toggleClass("fa fa-pause fa-lg");
     $(".song").toggleClass("musicplay");
   });
+  $(".album").click(function() {
+
+    $("#playandpause").toggleClass("fa fa-play fa-lg");
+    $("#playandpause").toggleClass("fa fa-pause fa-lg");
+    $(".song").toggleClass("musicplay");
+  });
   //
   // $("h1").click(function() {
   //
