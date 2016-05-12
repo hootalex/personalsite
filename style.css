@@ -25,7 +25,7 @@ img {
 .fullscreen {
   display: block;
   height: 100vh;
-  width: 70vw;
+  width: 100vw;
   max-width: 100%;
   margin: auto;
   overflow: auto;
@@ -35,7 +35,7 @@ img {
   background: url(img/6.jpg) no-repeat center center;
   background-size: cover;
 }
-.fullscreenii {
+/*.fullscreenii {
   display: block;
   height: 100vh;
   width: 30vw;
@@ -47,14 +47,14 @@ img {
   vertical-align: middle;
   background: url(img/coverart.jpg) no-repeat center center;
   background-size: cover;
-}
+}*/
 
 .infoii {
   color: white;
 }
 .fullscreeniii {
   display: block;
-  height: 50vh;
+  height: 100vh;
   width: 100vw;
   max-width: 100%;
   margin: auto;
