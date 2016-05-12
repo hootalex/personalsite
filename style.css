@@ -1,12 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700);
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
 html {
   background-color: white;
   font-smooth: never;
   -webkit-font-smoothing: antialiased;
 }
 body {
-  font-family: Georgia, serif;
+  font-family: 'EB Garamond' Georgia, serif;
   line-height: 1.5;
   margin: 0;
   /*-webkit-font-smoothing: antialiased;*/
@@ -32,21 +31,8 @@ img {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
-  background: url(img/6.jpg) no-repeat center center;
+  background: url(img/superb.jpg) no-repeat center center;
   background-size: cover;
-}
-.fullscreeniii {
-  display: block;
-  height: 100vh;
-  width: 100vw;
-  max-width: 100%;
-  margin: auto;
-  overflow: hidden;
-  text-align: center;
-  /*background: url(img/bluebird.JPG) no-repeat center top;
-  background-size: cover;
-  background-color: pink;
-  background-blend-mode: overlay;*/
 }
 
 .flexdisplay {
@@ -81,11 +67,9 @@ img {
   text-decoration: none;
 }
 .end {
-  display: block;
   text-align: center;
   width: 100%;
   margin: auto;
-  padding-bottom: 30px;
 }
 .flexdisplay p {
   width: 500px;
@@ -96,6 +80,7 @@ img {
   text-align: left;
   padding: 50px;
   color: white;
+  margin: auto;
 }
 
 #playandpause {
@@ -124,7 +109,7 @@ h1 {
 }
 .info p:nth-of-type(1):first-letter {
   float: left;
-  font-family: Georgia, serif;
+  font-family: 'EB Garamond', Georgia, serif;
   font-size: 90px;
   line-height: 60px;
   margin-right: 8px;
@@ -135,6 +120,7 @@ h1 {
   border-image-outset: initial;
   border-image-repeat: initial;
   padding: 22px;
+  padding-bottom: 24px;
   border: 1px solid white;
   color: white;
 }
@@ -186,11 +172,23 @@ h1 {
   padding-left: 5px;
 }
 
+.vertical {
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 10px;
+    position: relative;
+    padding: 20px;
+    padding-left: 150px;
+    float: right;
+    -webkit-transform:
+    rotateZ(90deg) rotateX(180deg) rotateY(-180deg)
+    scale(-1,-1)
+    translate3d(100%,100%,0);
+    -webkit-transform-origin: 100% 100%;
+}
+
 @media all and (max-width:900px) {
   .fullscreeniii {
     height: 50vh;
-  }
-
-  .info {
-    margin: auto;
   }
