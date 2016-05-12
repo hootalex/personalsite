@@ -214,3 +214,9 @@ hr {
   display: inline;
   padding-left: 5px;
 }
+
+@media all and (max-width:900px) {
+  .fullscreeniii {
+    height: 50vh;
+  }
+  }
