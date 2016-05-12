@@ -48,6 +48,10 @@ img {
   background-color: pink;
   background-blend-mode: overlay;*/
 }
+
+.flexdisplay {
+  padding: 50px;
+}
 .flexdisplay a:link {
   color: blue;
   text-decoration: none;
@@ -84,9 +88,7 @@ img {
   padding-bottom: 30px;
 }
 .flexdisplay p {
-  margin: 50px;
   width: 500px;
-  padding: 50px;
   margin: auto;
 }
 .info {
@@ -188,34 +190,7 @@ h1 {
   .fullscreeniii {
     height: 50vh;
   }
-    .info {
-      text-align: left;
-      padding: 50px;
-      color: white;
-    }
 
-    .flex {
-      width: 100%;
-    }
-    .flexdisplay {
-      width: 100%;
-    }
-    .flexdisplay p {
-      width: 290px;
-      padding: 0;
-      padding-top: 50px;
-      padding-bottom: 50px;
-    }
-    #waveform {
-      width: 290px;
-    }
-
-    .flex {
-      width: 80%;
-    }
-
-    .end {
-      font-size: 20px;
-    }
-
+  .info {
+    margin: auto;
   }
