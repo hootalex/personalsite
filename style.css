@@ -106,12 +106,12 @@ h1 {
 .album {
   position: absolute;
   bottom: -100vh;
-  left: 50px;
+  left: 30vw;
 }
 .radio {
   position: absolute;
   bottom: -100vh;
-  right: 50px;
+  right: 20vw;
 }
 .info p:nth-of-type(1):first-letter {
   float: left;
