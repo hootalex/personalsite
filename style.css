@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=EB+Garamond);
 html {
-  background-color: white;
+  background-color: black;
   font-smooth: never;
   -webkit-font-smoothing: antialiased;
 }
@@ -19,6 +19,7 @@ body {
   background: url(img/r2.jpg) no-repeat center center;
   background-attachment: fixed !important;
   background-size: cover !important;
+  z-index: -1;
 }
 .links {
   display: inline;
@@ -28,6 +29,15 @@ body {
   color: white;
   font-size: 30px;
   transform: rotate(90deg);
+}
+
+.check {
+  position: absolute;
+  display: inline;
+  text-align: center;
+  margin-top: 200vh;
+  right: 30vw;
+
 }
 
 .marquee {
