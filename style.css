@@ -59,22 +59,25 @@ img {
   transition: .2s;
 }
 .end a:link {
-  color: black;
+  color: blue;
   text-decoration: none;
   transition: .2s;
 }
 .end a:visited {
-  color: black;
+  color: blue;
   text-decoration: none;
 }
 .end a:hover {
-  color: salmon;
+  color: blue;
+  background-color: yellow;
   text-decoration: none;
 }
 .end {
   text-align: center;
   width: 100%;
   margin: auto;
+  font-size: 18px;
+  padding-bottom: 30px;
 }
 .flexdisplay p {
   width: 500px;
@@ -85,7 +88,7 @@ img {
   text-align: left;
   padding: 50px;
   color: white;
-  background-color: black;
+  background-color: blue;
 }
 
 #playandpause {
