@@ -35,29 +35,32 @@ img {
   background-size: cover;
 }
 
-.fullscreeniii {
-  width: 100vw;
-  height: 50vh;
+.links {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  transform: rotate(-90deg);
+  padding-top: 100vh;
+  padding-bottom: 100vh;
+  font-size: 30px;
 }
 
 .flexdisplay {
   padding: 50px;
 }
-.flexdisplay a:link {
-  color: blue;
+a:link {
+  color: white;
   text-decoration: none;
-  transition: .2s;
 }
-.flexdisplay a:hover {
-  background-color: yellow;
+a:hover {
+  color: yellow;
   text-decoration: none;
-  transition: .2s;
 }
-.flexdisplay a:visited {
-  color: blue;
+/*a:visited {
+  color: white;
   text-decoration: none;
-  transition: .2s;
-}
+}*/
 .end a:link {
   color: blue;
   text-decoration: none;
