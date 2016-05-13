@@ -88,7 +88,7 @@ img {
   text-align: left;
   padding: 50px;
   color: black;
-  background-color: yellow;
+  background-color: rgba(255, 238, 5, 0.55);
 }
 
 #playandpause {
