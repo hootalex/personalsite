@@ -97,7 +97,7 @@ h1 {
   display: inline;
   font-size: 20px;
   font-family: Helvetica, sans-serif;
-  position: absolute;
+  position: fixed;
   color: white;
   font-weight: 400;
   margin-top: 0;
