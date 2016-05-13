@@ -20,15 +20,6 @@ body {
   background-size: cover;
   z-index: -1;
 }
-.links {
-  display: inline;
-  position: absolute;
-  bottom: -100;
-  right: 0;
-  color: white;
-  font-size: 30px;
-  transform: rotate(90deg);
-}
 
 .check {
   position: absolute;
@@ -46,6 +37,17 @@ body {
   right: 50px;
   color: white;
   font-size: 30px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.marqueeii {
+  display: inline;
+  position: absolute;
+  bottom: -80vh;
+  left: 50vw;
+  color: white;
+  font-size: 30px;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 a:link {
@@ -59,7 +61,7 @@ a:visited {
     color: white;
 }
 a:hover {
-    color: yellow;
+    color: aqua;
 }
 
 .sketch {
