@@ -16,8 +16,9 @@ body {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background: url(img/r2.jpg) no-repeat center center fixed;
-  background-size: cover;
+  background: url(img/r2.jpg) no-repeat center center;
+  background-attachment: fixed !important;
+  background-size: cover !important;
 }
 .links {
   display: inline;
