@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=EB+Garamond);
 html {
-  background-color: black;
+  background-color: white;
   font-smooth: never;
   -webkit-font-smoothing: antialiased;
 }
@@ -31,8 +31,13 @@ img {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
-  background: url(img/geography.jpg) no-repeat center center;
+  background: url(img/card.jpg) no-repeat center center;
   background-size: cover;
+}
+
+.fullscreeniii {
+  width: 100vw;
+  height: 50vh;
 }
 
 .flexdisplay {
@@ -80,6 +85,7 @@ img {
   text-align: left;
   padding: 50px;
   color: white;
+  background-color: black;
 }
 
 #playandpause {
@@ -169,21 +175,6 @@ h1 {
 .element {
   display: inline;
   padding-left: 5px;
-}
-
-.vertical {
-    color: white;
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 10px;
-    position: relative;
-    padding: 20px;
-    float: right;
-    -webkit-transform:
-    rotateZ(90deg) rotateX(180deg) rotateY(-180deg)
-    scale(-1,-1)
-    translate3d(100%,100%,0);
-    -webkit-transform-origin: 100% 100%;
 }
 
 @media all and (max-width:900px) {
