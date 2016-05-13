@@ -23,7 +23,7 @@ img {
 }
 .fullscreen {
   display: block;
-  height: 50vh;
+  height: 90vh;
   width: 100vw;
   max-width: 100%;
   margin: auto;
@@ -37,7 +37,7 @@ img {
 
 .fullscreeniii {
   width: 100vw;
-  height: 100vh;
+  height: 50vh;
 }
 
 .flexdisplay {
@@ -88,7 +88,7 @@ img {
   text-align: left;
   padding: 50px;
   color: white;
-  background-color: blue;
+  background-color: orangered;
 }
 
 #playandpause {
