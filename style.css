@@ -23,7 +23,7 @@ img {
 }
 .fullscreen {
   display: block;
-  height: 90vh;
+  height: 100vh;
   width: 100vw;
   max-width: 100%;
   margin: auto;
