@@ -17,7 +17,6 @@ body {
   width: 100vw;
   height: 100vh;
   background: url(img/r2.jpg) no-repeat center center;
-  background-attachment: fixed;
   background-size: cover;
   z-index: -1;
 }
@@ -112,12 +111,6 @@ h1 {
   position: absolute;
   bottom: -100vh;
   right: 50px;
-}
-img {
-  transition: .2s;
-}
-img:hover {
-  opacity: 0.5;
 }
 .info p:nth-of-type(1):first-letter {
   float: left;
