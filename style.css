@@ -31,7 +31,7 @@ img {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
-  background: url(img/r2.jpg) no-repeat center center;
+  background: url(img/Viaduct1.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -87,8 +87,7 @@ img {
   width: 290px;
   text-align: left;
   padding: 50px;
-  color: black;
-  background-color: rgba(255, 238, 5, 0.55);
+  color: white;
 }
 
 #playandpause {
@@ -96,13 +95,13 @@ img {
   width: 20px;
 }
 .info a:link {
-  color: black;
+  color: white;
 }
 .info a:visited {
-  color: black;
+  color: white;
 }
 .info a:hover {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 h1 {
@@ -129,8 +128,8 @@ h1 {
   border-image-repeat: initial;
   padding: 22px;
   padding-bottom: 24px;
-  border: 1px solid black;
-  color: black;
+  border: 1px solid white;
+  color: white;
 }
 .playbutton {
   display: inline;
