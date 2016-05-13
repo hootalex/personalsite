@@ -19,7 +19,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 50px;
+  margin: auto;
 }
 .fullscreen {
   display: block;
@@ -74,9 +74,11 @@ img {
 .end {
   text-align: center;
   width: 100%;
+  margin: auto;
 }
 .flexdisplay p {
   width: 500px;
+  margin: auto;
 }
 .info {
   width: 290px;
@@ -141,6 +143,7 @@ h1 {
 }
 #waveform {
   width: 450px;
+  margin: auto;
 }
 .typed-cursor {
   opacity: 1;
