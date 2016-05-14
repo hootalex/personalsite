@@ -1,11 +1,9 @@
 $(document).ready(function() {
-  // $("h1").click(function() {
-  //
-  //   $("h1").addClass("errorshake");
-  //   setTimeout(function() {
-  //     $("h1").removeClass('errorshake');
-  //   }, 600);
-  // });
+  $(function() {
+      $.stellar({
+        horizontalScrolling: false
+      });
+    });
 
 //   $(window).scroll(function() {
 //     if (($(this).scrollTop() > $('.fullscreen').height())) {
