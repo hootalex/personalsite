@@ -3,6 +3,7 @@ html {
   background-color: black;
   font-smooth: never;
   -webkit-font-smoothing: antialiased;
+  height: 300vh;
 }
 body {
   font-family: 'EB Garamond', Georgia, serif;
@@ -97,7 +98,7 @@ h1 {
   display: inline;
   font-size: 20px;
   font-family: Helvetica, sans-serif;
-  position: fixed;
+  position: absolute;
   color: white;
   font-weight: 400;
   margin-top: 0;
