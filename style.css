@@ -3,6 +3,7 @@ html {
   background-color: #1C1D21;
   font-smooth: never;
   -webkit-font-smoothing: antialiased;
+  height: 250vh;
 }
 body {
   font-family: 'EB Garamond', Georgia, serif;
