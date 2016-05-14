@@ -38,7 +38,7 @@ body {
   bottom: -100vh;
   color: white;
   font-size: 30px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'EB Garamond', Georgia, serif;
 }
 
 .marqueeii {
@@ -49,6 +49,19 @@ body {
   color: white;
   font-size: 30px;
 }
+
+img {
+  transition: .2s;
+}
+img {
+  -webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+
+img:hover {
+    -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  }
 
 a:link {
     color: white; text-decoration: none;
@@ -121,7 +134,7 @@ h1 {
 }
 .photo {
   position: absolute;
-  top: 200px;
+  top: 100px;
   left: 10vw;
   z-index: -1;
 }
@@ -132,6 +145,21 @@ h1 {
   bottom: -80vh;
   z-index: -1;
 }
+
+.photoiii {
+  position: absolute;
+  left: 10vw;
+  bottom: -105vh;
+  z-index: -1;
+}
+
+.photoiiii {
+  position: absolute;
+  right: 40vw;
+  bottom: -100vh;
+  z-index: -1;
+}
+
 .radio {
   position: absolute;
   bottom: -100vh;
