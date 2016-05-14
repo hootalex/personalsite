@@ -16,7 +16,7 @@ body {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background: url(img/r2.jpg) no-repeat center center;
+  background: url(img/Tracklight.jpg) no-repeat center center;
   background-size: cover;
   z-index: -1;
 }
@@ -60,7 +60,7 @@ a:visited {
     color: white;
 }
 a:hover {
-    color: aqua;
+    color: red;
 }
 
 .sketch {
