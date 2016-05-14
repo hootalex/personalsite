@@ -64,6 +64,16 @@ a:hover {
     color: yellow;
 }
 
+.checklist {
+  position: absolute;
+  right: 50px;
+  padding: 10px 20px 10px 20px;
+  bottom: -90vh;
+  display: inline-block;
+  color: white;
+  border: 1px solid white;
+}
+
 .sketch {
   position: absolute;
   bottom: -100vh;
