@@ -5,6 +5,7 @@ $(document).ready(function() {
       });
     });
 
+
 //   $(window).scroll(function() {
 //     if (($(this).scrollTop() > $('.fullscreen').height())) {
 //         $(window).scrollTop(0);
