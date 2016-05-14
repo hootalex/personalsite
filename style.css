@@ -125,6 +125,13 @@ h1 {
   left: 10vw;
   z-index: -1;
 }
+
+.photoii {
+  position: absolute;
+  right: 20vw;
+  bottom: -80vh;
+  z-index: -1;
+}
 .radio {
   position: absolute;
   bottom: -100vh;
