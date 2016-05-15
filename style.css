@@ -3,7 +3,6 @@ html {
   background-color: #151a22;
   font-smooth: never;
   -webkit-font-smoothing: antialiased;
-  height: 250vh;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -61,9 +60,14 @@ body {
   font-size: 30px;
   transform: rotate(90deg);
 }
-img {
+/*img {
   -webkit-filter: grayscale(100%);
 filter: grayscale(100%);
+}*/
+
+.photo {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 img {
