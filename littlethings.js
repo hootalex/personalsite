@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $(function() {
       $.stellar({
+        hideDistantElements: false,
       });
     });
 
