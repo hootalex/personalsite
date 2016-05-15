@@ -56,7 +56,7 @@ filter: grayscale(100%);
 }
 
 img {
-  transition: .2s;
+  transition: 7s;
 }
 
 .photo img:hover {
@@ -167,6 +167,12 @@ h1 {
   right: 50px;
   bottom: -90vh;
   z-index: -1;
+}
+
+.star{
+  position: absolute;
+  bottom:-100vh;
+  right:60px;
 }
 
 .radio {
