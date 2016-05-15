@@ -130,8 +130,8 @@ h1 {
 }
 .album {
   position: absolute;
-  bottom: -100vh;
-  left: 20vw;
+  bottom: -170vh;
+  left: 40vw;
   z-index: 10;
 }
 .photo {
@@ -144,7 +144,7 @@ h1 {
 .photoii {
   position: absolute;
   right: 20vw;
-  bottom: -80vh;
+  bottom: -90vh;
   z-index: -1;
 }
 
