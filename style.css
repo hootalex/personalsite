@@ -4,6 +4,8 @@ html {
   font-smooth: never;
   -webkit-font-smoothing: antialiased;
   height: 250vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 body {
   font-family: 'EB Garamond', Georgia, serif;
