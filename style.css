@@ -40,6 +40,11 @@ h1 {
   font-weight: normal;
 }
 
+hr {
+  border: none;
+  border-top: 1px solid white;
+}
+
 a:link {
     color: white;
 }
