@@ -169,6 +169,7 @@ h1 {
   right: 40vw;
   bottom: -50vh;
   z-index: -1;
+  transform: rotate(90deg);
 }
 
 .photov {
