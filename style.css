@@ -59,7 +59,3 @@ a:hover {
 a:active {
     color: red;
 }
-
-marquee {
-  transform: rotate(-5deg);
-}
