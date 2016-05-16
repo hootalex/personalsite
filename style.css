@@ -4,6 +4,7 @@ html {
   font-smooth: never;
   -webkit-font-smoothing: antialiased;
   font-family: Georgia, serif;
+  font-size: 13px;
 }
 
 img {
@@ -27,10 +28,6 @@ img {
   text-align: left;
   padding: 20px;
   width: 100%;
-}
-
-p {
-  font-size: 13px;
 }
 
 h1 {
