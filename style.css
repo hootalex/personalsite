@@ -20,7 +20,16 @@ img {
   padding: 20px;
 }
 
-.info {
+li {
+padding-bottom: 13px;
+}
+
+.links a {
+  display: block;
+  padding-bottom: 13px;
+}
+
+.info, .links {
   display: table-cell;
   vertical-align: middle;
   min-width: 300px;
@@ -42,6 +51,7 @@ hr {
 
 a:link {
     color: white;
+    text-decoration: underline;
 }
 
 a:visited {
