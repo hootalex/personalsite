@@ -51,7 +51,7 @@ hr {
 
 a:link {
     color: white;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:visited {
@@ -60,7 +60,7 @@ a:visited {
 
 a:hover {
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:active {
