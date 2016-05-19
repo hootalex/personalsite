@@ -24,7 +24,7 @@ li {
 padding-bottom: 13px;
 }
 
-.links a {
+.links a, .info a {
   display: block;
   padding-bottom: 13px;
 }
@@ -67,14 +67,6 @@ a:active {
     color: lightblue;
 }
 
-.info a:nth-child(even) {
-  color: lightsalmon;
-  display: inline-block;
-  padding-bottom: 13px;
-}
-
 .info a:nth-child(odd) {
   color: lightblue;
-  display: inline-block;
-  padding-bottom: 13px;
 }
