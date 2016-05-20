@@ -70,3 +70,9 @@ a:active {
 .info a:nth-child(odd) {
   color: lightblue;
 }
+
+#lastedit {
+  color: gray;
+  font-size: 10px;
+  text-align: right;
+}
