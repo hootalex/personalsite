@@ -1,0 +1,84 @@
+html {
+  background-color: #141414;
+  color: white;
+  font-smooth: never;
+  -webkit-font-smoothing: antialiased;
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+
+img {
+  max-height:80%;
+}
+
+.photo {
+  display: table-cell;
+  vertical-align: middle;
+  height: 90vh;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+li {
+padding-bottom: 13px;
+}
+
+.links a, .info a {
+  display: block;
+  padding-bottom: 13px;
+}
+
+.info, .links {
+  display: table-cell;
+  vertical-align: middle;
+  min-width: 300px;
+  height: 90vh;
+  text-align: left;
+  padding: 20px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 13px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid white;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+a:active {
+    color: lightblue;
+}
+
+.info a:nth-child(odd) {
+  color: lightblue;
+}
+
+#lastedit {
+  color: gray;
+  font-size: 10px;
+  text-align: right;
+}
