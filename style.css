@@ -23,6 +23,11 @@ li {
 padding-bottom: 13px;
 }
 
+br {
+  display: block;
+  margin: 13px 0;
+}
+
 .links a, .info a {
   display: block;
   padding-bottom: 13px;
@@ -31,7 +36,7 @@ padding-bottom: 13px;
 .info, .links {
   display: table-cell;
   vertical-align: middle;
-  min-width: 300px;
+  min-width: 350px;
   height: 90vh;
   text-align: left;
   padding: 20px;
@@ -39,7 +44,7 @@ padding-bottom: 13px;
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: normal;
 }
 
@@ -50,18 +55,15 @@ h2 {
 }
 
 h3 {
-  font-size: 16px;
   font-weight: normal;
 }
 
 hr {
-  border: none;
-  border-top: 1px solid white;
+  display: none;
 }
 
 a:link {
     color: white;
-    text-decoration: none;
 }
 
 a:visited {
@@ -70,7 +72,7 @@ a:visited {
 
 a:hover {
     color: white;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:active {
