@@ -58,23 +58,10 @@ h3 {
   font-weight: normal;
 }
 
-hr {
-  display: none;
-}
-
-a:link {
-    color: white;
-}
-
-a:visited {
+a:link, a:visited, a:active {
     color: white;
 }
 
 a:hover {
-    color: white;
     text-decoration: none;
-}
-
-a:active {
-    color: lightblue;
 }
