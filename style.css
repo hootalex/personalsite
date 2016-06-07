@@ -59,9 +59,10 @@ h3 {
 }
 
 a:link, a:visited, a:active {
-    color: white;
+    color: gray;
+    text-decoration: none
 }
 
 a:hover {
-    text-decoration: none;
+  color: white;
 }
