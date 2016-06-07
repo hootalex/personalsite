@@ -60,7 +60,7 @@ h3 {
 
 a:link, a:visited, a:active {
     color: gray;
-    text-decoration: none
+    text-decoration: none;
 }
 
 a:hover {
