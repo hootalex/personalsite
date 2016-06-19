@@ -12,5 +12,3 @@ $(function() {
 
  ga('create', 'UA-78729250-1', 'auto');
  ga('send', 'pageview');
-
- $('html').append( "<meta name="viewport" content="width=400; initial-scale=1.0; maximum-scale=1.0;">" );
