@@ -70,7 +70,13 @@ a:hover {
 @media only screen and (orientation:portrait){
   html {
     transform: rotate(90deg);
-  }
+    }
+    .photo {
+      height: 100vh;
+    }
+    .info, .links {
+      height: 100vh;
+    }
 }
 @media only screen and (orientation:landscape){
   html {
