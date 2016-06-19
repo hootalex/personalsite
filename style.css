@@ -66,24 +66,3 @@ a:link, a:visited, a:active {
 a:hover {
   color: white;
 }
-
-@media only screen and (orientation:portrait){
-  html {
-    transform: rotate(86deg);
-    }
-    .photo {
-      height: 80vh;
-    }
-    .info, .links {
-      height: 80vh;
-    }
-    img {
-      padding-bottom: 10vh;
-      padding-top: 10vh;
-    }
-}
-@media only screen and (orientation:landscape){
-  html {
-     transform: rotate(0deg);
-  }
-}
