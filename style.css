@@ -66,3 +66,15 @@ a:link, a:visited, a:active {
 a:hover {
   color: white;
 }
+
+@media only screen and (orientation:portrait){
+  html {
+    height: 100vw;
+    transform: rotate(90deg);
+  }
+}
+@media only screen and (orientation:landscape){
+  html {  
+     transform: rotate(0deg);
+  }
+}
