@@ -72,10 +72,10 @@ a:hover {
     transform: rotate(90deg);
     }
     .photo {
-      height: 100vh;
+      height: 80vh;
     }
     .info, .links {
-      height: 100vh;
+      height: 80vh;
     }
 }
 @media only screen and (orientation:landscape){
