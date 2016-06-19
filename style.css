@@ -69,8 +69,8 @@ a:hover {
 
 @media only screen and (orientation:portrait){
   html {
-    height: 100vw;
-    transform: rotate(-90deg);
+    /*height: 100vw;*/
+    transform: rotate(90deg);
   }
 }
 @media only screen and (orientation:landscape){
