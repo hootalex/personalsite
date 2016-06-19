@@ -69,28 +69,17 @@ a:hover {
 
 @media all and (max-width:500px) {
 
-  html {
-    margin: 10px;
-  }
-
-  img, video {
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
   .photo {
-    display: block;
-    height: 100%;
-  }
-
-  .info, .links {
-    display: table-row;
+    display: table-cell;
     vertical-align: middle;
-    height: 0;
+    height: 90vh;
+    width: 100vw;
+    text-align: center;
+    padding: 20px;
   }
 
-  .links {
-    text-align: center;
+  img {
+    max-width:95vw;
   }
+
 }
