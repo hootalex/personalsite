@@ -69,7 +69,7 @@ a:hover {
 
 @media only screen and (orientation:portrait){
   html {
-    transform: rotate(90deg);
+    transform: rotate(89deg);
     }
     .photo {
       height: 80vh;
