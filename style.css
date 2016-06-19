@@ -71,18 +71,17 @@ a:hover {
 
   html {
     margin: 10px;
-    margin-top: 5px;
   }
 
   img, video {
-    max-width: 100%;
+    width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
   .photo {
-    display: table-row;
-    height: 0;
+    display: block;
+    height: 100%;
   }
 
   .info, .links {
