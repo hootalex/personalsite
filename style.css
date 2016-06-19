@@ -77,6 +77,10 @@ a:hover {
     .info, .links {
       height: 80vh;
     }
+    img {
+      padding-bottom: 10vh;
+      padding-top: 10vh;
+    }
 }
 @media only screen and (orientation:landscape){
   html {
