@@ -66,22 +66,3 @@ a:link, a:visited, a:active {
 a:hover {
   color: white;
 }
-
-@media all and (max-width:500px) {
-
-  .photo {
-    display: table-cell;
-    vertical-align: middle;
-    height: 100vh;
-    width: 100vw;
-    text-align: center;
-    padding: 0 10px 0 10px;
-  }
-
-  img {
-    max-width:95vw;
-    width: auto;
-    height: auto;
-  }
-
-}
