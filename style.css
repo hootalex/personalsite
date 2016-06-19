@@ -30,7 +30,7 @@ br {
 
 .links a, .info a {
   display: block;
-  padding-bottom: 13px;
+  padding-top: 13px;
 }
 
 .info, .links {
@@ -65,4 +65,33 @@ a:link, a:visited, a:active {
 
 a:hover {
   color: white;
+}
+
+@media all and (max-width:500px) {
+
+  html {
+    margin: 10px;
+    margin-top: 5px;
+  }
+
+  img, video {
+    max-width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .photo {
+    display: table-row;
+    height: 0;
+  }
+  
+  .info, .links {
+    display: table-row;
+    vertical-align: middle;
+    height: 0;
+  }
+
+  .links {
+    text-align: center;
+  }
 }
