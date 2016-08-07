@@ -66,3 +66,22 @@ a:link, a:visited, a:active {
 a:hover {
   color: white;
 }
+
+@media only screen and (orientation: portrait) {
+
+  .photo {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100vw;
+    text-align: center;
+  }
+
+  img, video {
+    max-width:95vw;
+  }
+
+  .info {
+    min-width: 90vw;
+  }
+
+}
