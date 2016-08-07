@@ -69,6 +69,14 @@ a:hover {
 
 @media only screen and (orientation: portrait) {
 
+  html, h2 {
+    font-size: 2vh;
+  }
+
+  h1 {
+    font-size: 3vh;
+  }
+
   .photo {
     display: table-cell;
     vertical-align: middle;
