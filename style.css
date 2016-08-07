@@ -89,7 +89,8 @@ a:hover {
   }
 
   .info {
-    min-width: 90vw;
+    min-width: 80vw;
+    padding: 20px;
   }
 
 }
