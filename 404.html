@@ -3,23 +3,32 @@
 <link href="http://aelx.co/style.css" rel="stylesheet" type="text/css">
 <title>404 Not Found</title>
 <body>
-<div class="photo"><img src="http://aelx.co/photos/images/prints.jpg" alt="404"></div>
+<style>
+.info, .links {
+  vertical-align: top;
+}
+
+#video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+</style>
+<video autoplay loop id="video-background" muted>
+<source src="projects/photos/itis.webm" type="video/webm">
+</video>
 <div class="info">
-  <h1>Error 404</h1>
-    <h2>Page Not Found - Why not peruse some of my hidden pages?</h2>
-    <ol>
-      <a href="http://aelx.co/projects/zines.html"><li>Zines</li></a>
-    </ol>
-</div>
-<div class="info">
-  <a href="https://www.youtube.com/watch?v=zJobXSveRtE">The Olivia Tremor Control - Hideaway</a>
-  <a href="http://www.ncbi.nlm.nih.gov/pubmed/12094435?dopt=Abstract">Fundamentally misunderstanding visual perception. Adults' belief in visual emissions.</a>
-  <a href="http://www.kunstler.com/eyesore_201205.html">The Eyesore of the Month</a>
+  <h1>Page Not Found</h1>
+  <h2>Why not peruse some of my hidden pages?</h2>
 </div>
 <div class="links">
-  <a href="http://aelx.co">Home</a>
-  <a href="http://aelx.co/portfolio">Portfolio</a>
-  <a href="mailto:1alextomlinson@gmail.com">Contact</a>
+  <a href="http://aelx.co/projects/zines.html">Zines</a>
+  <a href="http://aelx.co">Or go back home...</a>
 </div>
 </body>
 </html>
