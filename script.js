@@ -1,3 +1,5 @@
+$();
+
 $(function() {
   $('img').each(function() {
     var o = $(this);
