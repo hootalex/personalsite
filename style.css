@@ -67,7 +67,7 @@ a:hover {
   color: white;
 }
 
-@media only screen and (orientation: portrait) {
+/*@media only screen and (orientation: portrait) {
 
   html, h2 {
     font-size: 2vh;
@@ -93,4 +93,4 @@ a:hover {
     padding: 20px;
   }
 
-}
+}*/
