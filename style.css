@@ -58,9 +58,13 @@ h3 {
   font-weight: normal;
 }
 
-a:link, a:visited, a:active {
+a:link, a:active {
     color: gray;
     text-decoration: none;
+}
+
+a:visited {
+  color: lightblue;
 }
 
 a:hover {
