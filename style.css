@@ -68,7 +68,7 @@ a:hover {
   color: white;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
 html, body {
   margin: 0;
   padding: 0;
