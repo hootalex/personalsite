@@ -91,6 +91,7 @@ img, video {
   text-align: left;
   padding: 0px;
   padding-bottom: 15px;
+  min-width: 90%;
   width: 90%;
   margin: auto;
   border-bottom: 1px solid gray;
