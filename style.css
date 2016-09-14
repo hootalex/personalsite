@@ -9,7 +9,7 @@ html {
 }
 
 img {
-  max-height:80%;
+  max-height: 80%;
 }
 
 .photo {
@@ -73,12 +73,14 @@ html, body {
   margin: 0;
   padding: 0;
   padding-bottom: 30px;
-  overflow-x: hidden;
+  padding: 3px 0px 30px 0px;
 }
+
 img, video {
   width: 100%;
   padding: 0;
 }
+
 .photo {
   display: block;
   height: auto;
@@ -91,10 +93,8 @@ img, video {
   text-align: left;
   padding: 0px;
   padding-bottom: 15px;
-  min-width: 90%;
-  width: 90%;
+  min-width: 88%;
+  width: 88%;
   margin: auto;
-  border-bottom: 1px solid gray;
-}
-
-}
+  border-bottom: 1px solid #282828;
+}}
