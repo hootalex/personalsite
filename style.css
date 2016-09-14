@@ -97,4 +97,10 @@ img, video {
   width: 88%;
   margin: auto;
   border-bottom: 1px solid #282828;
-}}
+}
+
+.links a, .info a {
+  font-size: 19px;
+}
+
+}
