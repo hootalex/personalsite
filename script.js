@@ -108,3 +108,4 @@ $(function(){
 			event.preventDefault();
 		});
 	});
+  $(window).on('resize',function(){location.reload();});
