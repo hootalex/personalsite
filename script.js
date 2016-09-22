@@ -105,6 +105,5 @@ $(function(){
 		$(".post").wrap("<td></td>");
 		$('html, body').mousewheel(function(event, delta) {
 			this.scrollLeft -= (delta * 30);
-			event.preventDefault();
 		});
 	});
