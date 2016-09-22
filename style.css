@@ -6,6 +6,7 @@ html {
   font-family: Georgia, serif;
   font-size: 13px;
   margin-left: 12px;
+  overflow-y: hidden;
 }
 
 img {
@@ -74,6 +75,7 @@ html, body {
   padding: 0;
   padding-bottom: 30px;
   padding: 3px 0px 30px 0px;
+  overflow-y: auto;
 }
 
 img, video {
