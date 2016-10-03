@@ -10,12 +10,10 @@ html {
   background-color: black;
 }
   .photo {
-    min-width: 90vw;
-    position: absolute;
-    z-index: -1;
+    min-width: 70vw;
   }
   .path {
-    animation: dash 45s infinite cubic-bezier(0.670, 0.005, 0.200, 1.000);
+    animation: dash 35s cubic-bezier(0.670, 0.005, 0.200, 1.000);
     animation-fill-mode: forwards;
   }
   @keyframes scroll {
@@ -31,22 +29,18 @@ html {
     0% {
       stroke-dasharray: 2000;
       stroke-dashoffset: 2000;
-      opacity: 0;
     }
     1% {
       stroke-dasharray: 2000;
       stroke-dashoffset: 2000;
-      opacity: 1;
     }
     50% {
       stroke-dasharray: 10;
       stroke-dashoffset: 5;
-      opacity: 1;
     }
     100% {
       stroke-dasharray: 2000;
       stroke-dashoffset: 0;
-      opacity: 0;
     }
   }
   @media screen and (max-width: 600px) {
@@ -121,7 +115,7 @@ html {
 <line fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" x1="1027.437" y1="329.396" x2="1027.437" y2="332.646"/></div>
   <div class="info">
     <h1>Alex Tomlinson</h1>
-    <h2>A little vector animation</h2>
+    <h2>A little vector doodle animation</h2>
   </div>
   <div class="info">
     <h3>About</h3>Born: Scranton, PA / Lives: New York, NY
