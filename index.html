@@ -5,11 +5,123 @@
 <script src="jquery.min.js"></script>
 <script src="script.js"></script>
 <meta name="viewport" content="width=320, initial-scale=1.0">
+<style>
+html {
+  background-color: black;
+}
+  .photo {
+    min-width: 90vw;
+    position: absolute;
+    z-index: -1;
+  }
+  .path {
+    animation: dash 45s infinite cubic-bezier(0.670, 0.005, 0.200, 1.000);
+    animation-fill-mode: forwards;
+  }
+  @keyframes scroll {
+    0% {
+      padding-left: -50px;
+    }
+    100% {
+      padding-left: 50px;
+    }
+  }
+
+  @keyframes dash {
+    0% {
+      stroke-dasharray: 2000;
+      stroke-dashoffset: 2000;
+      opacity: 0;
+    }
+    1% {
+      stroke-dasharray: 2000;
+      stroke-dashoffset: 2000;
+      opacity: 1;
+    }
+    50% {
+      stroke-dasharray: 10;
+      stroke-dashoffset: 5;
+      opacity: 1;
+    }
+    100% {
+      stroke-dasharray: 2000;
+      stroke-dashoffset: 0;
+      opacity: 0;
+    }
+  }
+  @media screen and (max-width: 600px) {
+  .photo {
+    position: relative;
+    display: block;
+  }
+}
+</style>
 <body>
-  <div class="photo"><img src="photos/anitest.gif" alt="Animation test"></div>
+  <div class="photo"><svg version="1.1" class="path" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 1280 800" enable-background="new 0 0 1280 800" xml:space="preserve">
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M86.619,112.104
+  c49.498,6,101.995,19.499,151.493,16.5c-9-12-22.499-22.499-35.998-31.499"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M238.111,130.104
+  c-12,17.999-25.499,32.998-38.998,49.497"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M230.612,281.596c61.497,0,121.494,1.5,182.991-3"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M391.104,238.098
+  c13.5,13.5,28.499,25.499,41.998,38.998c-12,9-25.499,19.499-35.998,29.999"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M178.114,431.588
+  c82.496,13.5,175.491-4.499,257.987-5.999"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M401.603,395.59
+  c23.999,12,50.998,17.999,76.496,29.999c-4.5,8.999-13.499,14.999-22.499,19.499"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M302.608,365.591
+  c109.495,6,223.489-28.499,331.483-40.498c52.498-6,103.495-10.5,155.993-15"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M754.086,272.596
+  c17.999,13.5,34.498,26.999,53.997,38.998c-6,12-19.499,19.499-28.499,28.499"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M353.605,670.076
+  c76.496,10.5,161.992-13.499,236.988-20.999c76.496-7.499,170.991,6,239.988-31.498c46.497-25.499,89.995-89.996,5.999-86.996
+  c-28.498,1.5-53.997,20.999-26.998,49.498c25.498,28.498,116.994,22.499,152.992,22.499c19.499,0,38.998-3,58.497-4.5"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M995.573,575.581
+  c14.999,11.999,35.998,23.999,46.498,38.998c-9,7.5-19.499,13.499-29.999,19.499"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M634.091,134.603c110.995,4.5,223.489,0,334.484,9"
+  />
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M938.576,112.104
+  c9,13.5,20.999,23.999,34.498,34.499c-10.499,14.999-35.998,22.499-52.497,34.498"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M829.082,424.089
+  c106.494,0,218.988,5.999,322.483-14.999"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M1108.067,385.091
+  c16.5,9,34.499,17.999,50.998,26.998c-4.5,15-17.999,28.499-29.999,40.498"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M118.117,593.58c58.497,0,116.994-1.5,173.991-4.5
+  c19.499,0,46.498,1.5,62.997-3c-19.499-22.498-52.498-38.998-79.496-50.997"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M349.106,584.58
+  c-19.5,26.999-44.998,47.998-67.497,70.497"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M500.959,458.989
+  c29.938-11.628,62.603,8.347,89.405,19.531c13.324,5.561,28.532,11.769,43.263,10.469"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M500.959,466.656
+  c13.009-0.154,26.04-1.477,39.018-2.282c18.98-1.179,38.497-2.607,57.577-5.023c25.46-3.224,50.373-9.033,75.615-13.751
+  c9.502-1.775,21.854-5.118,30.946-0.618c6.468,3.201,7.585,11.467,3.87,17.434c-4.016,6.453-10.89,12.312-16.888,16.89"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M553.626,580.989
+  c7.046-5.349,14.082-10.706,20.929-16.312c12.225-10.006,25.561-19.319,36.774-30.462c14.757-14.664,31.727-36.828,17.63-57.56"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M689.626,461.354c0,0-11.666,1.969-11.666,7.302
+  s14,1.667,14,16s-11.667,26.333-24.667,36.333s-113.667,60-113.667,60"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M706.142,453.831c0,0,5.242,0,17.667-0.666"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M702.861,468.961
+  c2.214,37.807-27.312,65.675-86.645,97.009c0,0,28.959-11.136,31.518-33.391"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M679.947,444.271c0,0,12.351,17.287,28.075,4.02"/>
+<line fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" x1="700.084" y1="451.322" x2="700.084" y2="454.572"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M952.308,327.629c0,0,0.87-26.95,6.375-32.474
+  c2.857-2.868-27.918-21.394-30.804-23.108c-2.743-1.631-5.505-3.222-8.268-4.815c-9.087-5.24-18.378-10.059-27.623-15.001
+  c2.904,1.549,7.103,1.832,10.272,2.492c28.46,5.926,56.767,14.883,83.221,26.994c4.683,2.144,12.066,7.394,12.066,13.434
+  c0,7.54-8.12,10.44-8.12,17.399c0,6.961,8.12,12.18,8.12,12.18s-0.87-17.689,7.54-26.1c8.409-8.41,11.601-13.92,6.38-26.1
+  s-38.279-40.02-55.68-46.4"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M981.273,280.088
+  c0-16.24-17.366-45.838-25.485-53.958"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M997.591,320.621
+  c10.965-1.328,23.234-3.416,34.123,1.379c11.281,4.969,5.87,18.088-0.887,24.594c-25.63,24.682-68.331,12.076-96.873,1.082
+  c-10.346-3.986-20.696-8.776-31.328-11.934c-14.826-4.404-31.655-6.549-47.145-5.803"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M838.118,332.344c0,0,29.799-5.855,114.387-8.602"/>
+<path fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" d="M1007.496,319.453c0,0,6.507,20.158,29.616,7.252"/>
+<line fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" x1="1030.034" y1="335.094" x2="1055.534" y2="335.094"/>
+<line fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" x1="1027.437" y1="329.396" x2="1027.437" y2="332.646"/></div>
   <div class="info">
     <h1>Alex Tomlinson</h1>
-    <h2>Rotoscope for my animation class. Trying a whole bunch of techniques to complete a 25 second assignment in a week.</h2>
+    <h2>A little vector animation</h2>
   </div>
   <div class="info">
     <h3>About</h3>Born: Scranton, PA / Lives: New York, NY
