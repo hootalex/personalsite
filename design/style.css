@@ -38,6 +38,11 @@
   color: white;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 html, body {
   padding: 0;
   margin: 0;
