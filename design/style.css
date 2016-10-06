@@ -31,12 +31,18 @@
   color: white;
 }
 
-a:hover {
+.about a:hover {
   text-decoration: none;
-  background: url(nonelol) repeat-x 0 100%;
-  opacity: .8;
+  opacity: .7;
   color: white;
 }
+
+.contact a:hover {
+  text-decoration: none;
+  opacity: .7;
+  color: white;
+}
+
 
 a {
   text-decoration: none;
@@ -131,13 +137,6 @@ html, body {
   z-index: 2;
 }
 
-.recent:hover {
-  background: url(recent.jpg) no-repeat center center;
-  background-size: cover;
-  background-color: #1b78cc;
-  background-blend-mode: normal;
-}
-
 .animate {
   opacity: 0;
   animation: dash 5s cubic-bezier(0.670, 0.005, 0.200, 1.000);
@@ -186,8 +185,10 @@ li {
   }
   .drawingblock {
     position: absolute;
-    left: 0;
+    margin: auto;
+    left: auto;
     width: 100vw;
+    height: 100vh;
   }
   .drawingblock svg {
     width: 40vw;
