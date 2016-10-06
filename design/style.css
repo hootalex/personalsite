@@ -98,7 +98,7 @@ html, body {
 }
 .drawingblock svg {
   width: 20vw;
-  height: 100vh;
+  height: 99vh;
 }
 .profileimg {
   -webkit-filter: grayscale(100%);
