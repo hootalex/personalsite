@@ -146,6 +146,10 @@ li {
 }
 
 @media screen and (max-width: 600px) {
+
+  html, body {
+    overflow: none;
+  }
   .colorblock {
     display: none;
   }
@@ -158,17 +162,17 @@ li {
     width: 40vw;
     height: 100vh;
   }
-  li:nth-child(1) {
+  li {
+    display: block;
     border-bottom: 1px solid #282828;
+    padding: 5px;
   }
-li {
-  padding: 5px;
-}
+
   br {
     display: none;
   }
   .dropcap {
-    height: 48px;
+    height: 51px;
     float: left;
     padding-right: .8vw;
   }
@@ -181,16 +185,21 @@ li {
       padding-bottom: 10vw;
   }
   .contact {
-    font-size: 3vw;
+    font-size: 3.5vw;
     position: absolute;
-    left: 40vw;
-    bottom: 10vw;
+    width: 80vw;
+    left: auto;
+    bottom: 20vw;
+    z-index: 99;
   }
   li {
     display: inline-block;
   }
   .recent {
     top: 0;
+  }
+  .about {
+      padding-bottom: 20vw;
   }
 }
 </style>
