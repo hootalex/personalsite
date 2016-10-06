@@ -1,9 +1,213 @@
-<!DOCTYPE html>
-<title>Alex Tomlinson / Design</title>
-<link href="style.css" rel="stylesheet" type="text/css">
+
+<style>
+@font-face{font-family:"kb";src:url("http://hootalex.github.io/homesick/kb.eot");src:url("http://hootalex.github.io/homesick/kb.eot?#iefix") format("embedded-opentype"),url("http://hootalex.github.io/homesick/kb.woff") format("woff"),url("http://hootalex.github.io/homesick/kb.ttf") format("truetype");font-weight:normal;font-style:normal;}
+
+a {
+  text-decoration: none;
+  background: url(underline.gif) repeat-x 0 100%;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  background: url(nonelol) repeat-x 0 100%;
+  opacity: .8;
+  color: white;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  background-color: #141414;
+  color: white;
+  font-smooth: never;
+  -webkit-font-smoothing: antialiased;
+}
+.center {
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.dropcap {
+  height: 7.4vw;
+  float: left;
+  padding-right: .8vw;
+}
+
+.about {
+    font-family: 'kb';
+    font-weight: normal;
+    font-size: 2.2vw;
+    width: 57vw;
+    margin: 1.5vw;
+    padding-bottom: 5vw;
+}
+
+.about::first-letter {
+  display: none;
+}
+
+.colorblock {
+  position: absolute;
+  width: 60vw;
+  height: 100vh;
+  background-color: #1b78cc;
+}
+.drawingblock {
+  position: absolute;
+  left: 60vw;
+  width: 20vw;
+  height: 100vh;
+}
+.contact {
+  text-transform: uppercase;
+  font-family: Georgia, Times, serif;
+  font-size: 1vw;
+  position: absolute;
+  left: 40vw;
+  bottom: 10vw;
+  z-index: 99;
+}
+.drawingblock svg {
+  width: 20vw;
+  height: 100vh;
+}
+.profileimg {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  width: 17vw;
+  margin: 1.5vw;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.recent {
+  background: url(recent.jpg) no-repeat center center;
+  background-size: cover;
+  background-color: #1b78cc;
+  background-blend-mode: hard-light;
+  /*cant use color img until safari supports luminosity*/
+  width: 17vw;
+  height: 17vw;
+  margin: 1.5vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.recent:hover {
+  background: url(recent.jpg) no-repeat center center;
+  background-size: cover;
+  background-color: #1b78cc;
+  background-blend-mode: normal;
+}
+
+.animate {
+  opacity: 0;
+  animation: dash 5s cubic-bezier(0.670, 0.005, 0.200, 1.000);
+  animation-fill-mode: forwards;
+}
+
+@keyframes dash {
+  0% {
+    opacity: 1;
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+  }
+  50% {
+    opacity: 1;
+    stroke-dasharray: 30;
+    stroke-dashoffset: 5;
+  }
+  100% {
+    opacity: 1;
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 0;
+  }
+}
+span {
+  display: none;
+}
+ul {
+  list-style: none;
+  padding: none;
+}
+
+li {
+  display: inline-block;
+  padding-right: 1vw;
+}
+
+@media screen and (max-width: 600px) {
+
+  html, body {
+    overflow: none;
+    text-size-adjust: none;
+  }
+
+  .colorblock {
+    display: none;
+  }
+  .drawingblock {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+  }
+  .drawingblock svg {
+    width: 40vw;
+    height: 100vh;
+  }
+
+  br {
+    display: none;
+  }
+  .dropcap {
+    height: 45px;
+    float: left;
+    padding-right: .8vw;
+  }
+  .about {
+      font-family: 'kb';
+      font-weight: normal;
+      font-size: 20px;
+      width: 80vw;
+      margin: 1.5vw;
+      padding-bottom: 10vw;
+  }
+  .contact {
+    font-size: 3.5vw;
+    position: absolute;
+    width: 80vw;
+    left: auto;
+    bottom: 10vw;
+    z-index: 99;
+  }
+  li {
+    display: inline-block;
+    border-bottom: 1px solid #282828;
+    padding: 0;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+  }
+  .recent {
+    top: 0;
+  }
+  .about {
+      padding-bottom: 20vw;
+  }
+}
+</style>
 <meta name="viewport" content="width=320, initial-scale=1.0">
 <body>
-  <div class="center"><div class="about"><a href="http://aelx.co"><img class="dropcap" src="a.svg"/><span>A</span>lex Tomlinson</a> is an artist and designer working at <a href="http://polyphony.nyc">Polyphony</a> and a current student at The Cooper Union in New York City. His latest prediction about the future is that checkerboards will make a comeback and so might text adventures. He has experience in photography, illustration, design, and so much more. Feel free to get in touch or check out the regularly updated <a href="http://gd.aelx.co">design portfolio</a>.</div></div>
+  <div class="center"><div class="about"><a href="http://aelx.co"><img class="dropcap" src="a.svg"/><span>A</span>lex Tomlinson</a> I'm a artist living in New York City and designer at <a href="http://polyphony.nyc">Polyphony</a>. My latest prediction about the future is that checkerboards will make a comeback and so might text adventures. However, I had no idea that gradients would be in fashion again so soon so please take my word with a grain of salt. I have experience in photography, illustration, design, and so much more. Feel free to get in touch or check out my regularly updated <a href="http://gd.aelx.co">design portfolio</a>.</div></div>
   <img src="profile.jpg" class="profileimg"/>
   <div class="recent"></div>
   <div class="colorblock"></div>
@@ -12,4 +216,3 @@
 </div>
 <div class="contact"><ul><li>Cooper Union BFA 2014-2018</li><li>570-706-1302</li><li>alex@aelx.co</li></ul></div>
 </body>
-</html>
