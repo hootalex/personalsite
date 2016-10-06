@@ -16,7 +16,7 @@
  *
  * License: http://www.myfonts.com/viewlicense?type=web&buildid=3292553
  *
- * © 2016 MyFonts Inc
+ * Â© 2016 MyFonts Inc
 */
 
 
@@ -31,7 +31,7 @@
   color: white;
 }
 
-.about a:hover {
+a:hover {
   text-decoration: none;
   background: url(nonelol) repeat-x 0 100%;
   opacity: .8;
@@ -51,6 +51,7 @@ html, body {
   font-smooth: never;
   -webkit-font-smoothing: antialiased;
 }
+
 .center {
     position: absolute;
     z-index: 1;
@@ -95,7 +96,7 @@ html, body {
 .contact {
   text-transform: uppercase;
   font-family: Georgia, Times, serif;
-  font-size: 1vw;
+  font-size: 13px;
   position: absolute;
   left: 40vw;
   bottom: 10vw;
@@ -218,7 +219,7 @@ li {
       padding-bottom: 120px;
   }
   .contact {
-    font-size: 3.5vw;
+    font-size: 13px;
     position: absolute;
     width: 80vw;
     left: auto;
