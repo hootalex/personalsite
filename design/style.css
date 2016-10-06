@@ -25,13 +25,13 @@
 
 
 @font-face {font-family: 'KabelLTPro-Book';src: url('webfonts/323D89_0_0.eot');src: url('webfonts/323D89_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/323D89_0_0.woff2') format('woff2'),url('webfonts/323D89_0_0.woff') format('woff'),url('webfonts/323D89_0_0.ttf') format('truetype');}
-a {
+.about a {
   text-decoration: none;
   border-bottom: 1px solid lightblue;
   color: white;
 }
 
-a:hover {
+.about a:hover {
   text-decoration: none;
   background: url(nonelol) repeat-x 0 100%;
   opacity: .8;
