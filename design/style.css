@@ -62,9 +62,9 @@ html, body {
   }
 
 .dropcap {
-  height: 7.4vw;
+  height: 5.2vw;
   float: left;
-  padding-right: .8vw;
+  padding-right: .5vw;
 }
 
 .about {
@@ -190,7 +190,15 @@ li {
   }
   .drawingblock svg {
     width: 40vw;
-    height: 100vh;
+    height: 99vh;
+  }
+
+  .profileimg {
+    top: none;
+    position: absolute;
+    right: 0;
+    top: auto;
+    bottom: 0;
   }
 
   br {
@@ -202,12 +210,13 @@ li {
     padding-right: .8vw;
   }
   .about {
+    position: absolute;
       font-family: 'KabelLTPro-Book';
       font-weight: normal;
       font-size: 20px;
       width: 80vw;
       margin: 1.5vw;
-      padding-bottom: 10vw;
+      top: 20vh;
   }
   .contact {
     font-size: 3.5vw;
@@ -227,8 +236,5 @@ li {
   }
   .recent {
     top: 0;
-  }
-  .about {
-      padding-bottom: 20vw;
   }
 }
