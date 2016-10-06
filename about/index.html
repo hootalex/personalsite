@@ -1,3 +1,4 @@
+
 <style>
 @font-face {
 	font-family: 'kb';
@@ -25,7 +26,7 @@ html, body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-  }
+  }
 
 .dropcap {
   height: 7.4vw;
@@ -129,7 +130,41 @@ html, body {
 span {
   display: none;
 }
+@media screen and (max-width: 600px) {
+  .colorblock {
+    display: none;
+  }
+  .drawingblock {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+  }
+  .drawingblock svg {
+    width: 40vw;
+    height: 100vh;
+  }
+  br {
+    display: none;
+  }
+  .dropcap {
+    height: 16vw;
+    float: left;
+    padding-right: .8vw;
+  }
+  .about {
+      font-family: 'kb';
+      font-weight: normal;
+      font-size: 27px;
+      width: 80vw;
+      margin: 1.5vw;
+      padding-bottom: 10vw;
+  }
+  .contact {
+    display: none;
+  }
+}
 </style>
+<meta name="viewport" content="width=320, initial-scale=1.0">
 <body>
   <div class="center"><div class="about"><img class="dropcap" src="a.svg"/><span>A</span>lex Tomlinson I'm a person trying to balance art and design living<br> in New York City. My latest prediction about the future is that checkerboards will make a comeback and so may text adventures. However, I had no idea that gradients would be in fashion again so soon so please take my word with a grain of salt. I have experience in photography, illustration, design, and so much more. Feel free to get in touch.</div></div>
   <img src="profile.jpg" class="profileimg"/>
