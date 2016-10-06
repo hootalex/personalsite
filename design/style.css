@@ -210,13 +210,12 @@ li {
     padding-right: .8vw;
   }
   .about {
-    position: absolute;
       font-family: 'KabelLTPro-Book';
       font-weight: normal;
       font-size: 20px;
       width: 80vw;
       margin: 1.5vw;
-      top: 20vh;
+      padding-bottom: 120px;
   }
   .contact {
     font-size: 3.5vw;
