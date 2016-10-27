@@ -107,3 +107,9 @@ $(function(){
 			this.scrollLeft -= (delta * 30);
 		});
 	});
+
+// Crazy scroll based on mouse position
+//   $(document).mousemove(function(e) {
+//     var percent = e.clientX / $(window).width();
+//     $('body, html').scrollLeft($(document).width() * percent);
+// });
