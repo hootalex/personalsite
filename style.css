@@ -21,8 +21,12 @@ img {
   padding: 20px;
 }
 
+ol {
+  padding-left: 13px;
+}
+
 li {
-padding-bottom: 13px;
+  padding-top: 13px;
 }
 
 br {
