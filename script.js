@@ -104,7 +104,7 @@ $(function(){
 		$("#page-wrap").wrapInner("<table cellspacing='30'><tr>");
 		$(".post").wrap("<td></td>");
 		$('html, body').mousewheel(function(event, delta) {
-			this.scrollLeft -= (delta * 30);
+			this.scrollLeft -= (delta * 100);
 		});
 	});
 
