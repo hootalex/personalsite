@@ -2,15 +2,21 @@
 html, body {
 background-color: black;
 color: white;
-font-family: Futura;
+font-family: AvenirNext-Heavy ;
 font-weight: bold;
 }
 marquee {
-height: 100vh;
 color: white;
+font-size: 70vh;
+-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
 }
 
 
-<style>
+</style>
 
-<marquee>HANDS TOO SMALL         CAN'T BUILD A WALL</marquee>
+<marquee scrollamount="20">HANDS TOO SMALL         CAN'T BUILD A WALL</marquee>
