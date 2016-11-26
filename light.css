@@ -65,7 +65,7 @@ h3 {
 }
 
 a:link, a:active, a:visited{
-    color: #C0C0C0;
+    color: #303030;
     text-decoration: none;
 }
 
@@ -102,7 +102,7 @@ img, video {
   min-width: 88%;
   width: 88%;
   margin: auto;
-  border-bottom: 1px solid #282828;
+  border-bottom: 1px solid #E8E8E8;
 }
 
 .links a, .info a {
