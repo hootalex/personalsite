@@ -70,7 +70,7 @@ a:link, a:active, a:visited{
 }
 
 a:hover {
-  color: black;
+  color: #111111;
 }
 
 @media screen and (max-width: 600px) {
