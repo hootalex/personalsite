@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<title>Alex Tomlinson</title>
+<script src="jquery.min.js"></script>
+<script src="script.js"></script>
+<style>
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.panorama {
+  height: auto;
+}
+
+</style>
+<script>
+  $(document).mousemove(function(e) {
+    var percent = e.clientX / $(window).width();
+    $('body, html').scrollLeft($(document).width() * percent);
+});
+</script>
+<body>
+  <div class="panorama"><img src="photos/scrantonsmall.jpg"></div>
+</body>
+</html>
