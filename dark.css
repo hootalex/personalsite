@@ -89,9 +89,12 @@ img, video {
 
 .photo {
   display: block;
-  height: 100%;
-  width: auto;
+  height: auto;
   padding-bottom: 0px;
+}
+
+.portrait {
+  width: 50%;
 }
 
 .info, .links {
