@@ -90,6 +90,7 @@ img, video {
 .photo {
   display: block;
   height: 100%;
+  width: auto;
   padding-bottom: 0px;
 }
 
