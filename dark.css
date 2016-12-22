@@ -1,12 +1,10 @@
 html {
-  background-color: #111111;
+  background-color: #111;
   color: white;
-  font-smooth: never;
   -webkit-font-smoothing: antialiased;
   font-family: Georgia, serif;
   font-size: 13px;
   margin-left: 12px;
-  overflow-y: hidden;
 }
 
 img {
@@ -18,7 +16,7 @@ img {
   vertical-align: middle;
   height: 90vh;
   text-align: center;
-  padding: 20px;
+  padding: 0px 20px 0px 20px;
 }
 
 ol {
@@ -44,29 +42,25 @@ br {
   vertical-align: middle;
   min-width: 350px;
   height: 90vh;
-  text-align: left;
-  padding: 20px;
-  width: 100%;
+  padding: 0px 20px 0px 20px;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
 }
 
 h1 {
   font-size: 19px;
-  font-weight: normal;
 }
 
 h2 {
   font-size: 13px;
-  font-weight: normal;
   font-style: italic;
 }
 
-h3 {
-  font-weight: normal;
-}
-
-a:link, a:active, a:visited{
-    color: gray;
-    text-decoration: none;
+a:link, a:active, a:visited {
+  color: gray;
+  text-decoration: none;
 }
 
 a:hover {
@@ -76,10 +70,7 @@ a:hover {
 @media screen and (max-width: 600px) {
 html, body {
   margin: 0;
-  padding: 0;
-  padding-bottom: 30px;
   padding: 3px 0px 30px 0px;
-  overflow-y: auto;
 }
 
 img, video {
@@ -90,7 +81,7 @@ img, video {
 .photo {
   display: block;
   height: auto;
-  padding-bottom: 0px;
+  padding: 20px 20px 0px 20px;
 }
 
 .portrait {
@@ -99,18 +90,14 @@ img, video {
 
 .info, .links {
   display: block;
-  height: auto;
-  text-align: left;
-  padding: 0px;
-  padding-bottom: 15px;
-  min-width: 88%;
-  width: 88%;
   margin: auto;
+  height: auto;
+  padding: 0px 0px 15px 0px;
+  width: 88%;
   border-bottom: 1px solid #282828;
 }
 
 .links a, .info a {
   font-size: 19px;
 }
-
 }
