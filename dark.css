@@ -92,7 +92,8 @@ img, video {
   display: block;
   margin: auto;
   height: auto;
-  padding: 0px 20px 15px 20px;
+  padding: 0px 0px 15px 0px;
+  width: 88%;
   border-bottom: 1px solid #282828;
 }
 
