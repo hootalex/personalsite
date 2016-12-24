@@ -58,12 +58,12 @@ h2 {
 }
 
 a:link, a:active, a:visited{
-    color: #999999;
+    color: #888;
     text-decoration: none;
 }
 
 a:hover {
-  color: #111111;
+  color: #111;
 }
 
 @media screen and (max-width: 600px) {
