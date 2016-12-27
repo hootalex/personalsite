@@ -113,3 +113,12 @@ $(function(){
 //     var percent = e.clientX / $(window).width();
 //     $('body, html').scrollLeft($(document).width() * percent);
 // });
+$(document).scroll(function(){
+		$('.link').addClass('linkmin');
+});
+
+$(window).scroll(function() {
+   if($(window).scrollLeft() + $(window).width() == $(document).width()) {
+       $('.linkmin').removeClass('linkmin');
+   }
+});
