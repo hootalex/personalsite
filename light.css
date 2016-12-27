@@ -52,6 +52,10 @@ a:hover {
   color: #111;
 }
 
+.end {
+  padding-right: 300px;
+}
+
 /*Link navigation*/
 
 .link {
