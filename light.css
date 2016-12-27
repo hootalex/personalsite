@@ -1,33 +1,46 @@
 html {
+  background-color: white;
   color: #111;
   -webkit-font-smoothing: antialiased;
   font: 13px Georgia, serif;
-  margin-left: 32px;
+  margin-left: 12px;
 }
 
 img {
   max-height: 80%;
 }
 
-.photo, .info {
+.photo {
   display: table-cell;
   vertical-align: middle;
   height: 90vh;
-  padding-right: 40px;
+  padding: 0px 20px 0px 20px;
 }
 
-.info {
-  min-width: 350px;
+ol {
+  padding-left: 13px;
 }
 
-.info a {
-  display: block;
+li {
   padding-top: 13px;
 }
 
 br {
   display: block;
   margin: 13px 0;
+}
+
+.links a, .info a {
+  display: block;
+  padding-top: 13px;
+}
+
+.info, .links {
+  display: table-cell;
+  vertical-align: middle;
+  min-width: 350px;
+  height: 90vh;
+  padding: 0px 20px 0px 20px;
 }
 
 h1, h2, h3 {
@@ -43,54 +56,14 @@ h2 {
   font-style: italic;
 }
 
-a:link, a:active, a:visited {
-  color: #888;
-  text-decoration: none;
+a:link, a:active, a:visited{
+    color: #999999;
+    text-decoration: none;
 }
 
 a:hover {
-  color: #111;
+  color: #111111;
 }
-
-.end {
-  padding-right: 300px;
-}
-
-/*Link navigation*/
-
-.link {
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  padding: 0px 10px 5px 10px;
-  width: 200px;
-  border: 1px solid #282828;
-  border-top: 10px solid #282828;
-  background-color: rgba(255,255,255,.9);
-  transition: .25s;
-}
-
-.link h2 {
-  padding-bottom: 15px;
-  border-bottom: 1px solid #E8E8E8;
-}
-
-.linkmin {
-  transform: scale(.9);
-  opacity: 0;
-}
-
-.link:hover {
-  transform: scale(1);
-  opacity: 1;
-}
-
-.link a {
-  display: block;
-  padding-bottom: 13px;
-}
-
-/*MOBILE*/
 
 @media screen and (max-width: 600px) {
 html, body {
@@ -113,10 +86,7 @@ img, video {
   width: 50%;
 }
 
-.info, .link {
-  position: inherit;
-  background-color: transparent;
-  border: none;
+.info, .links {
   display: block;
   margin: auto;
   height: auto;
@@ -126,16 +96,7 @@ img, video {
   border-bottom: 1px solid #E8E8E8;
 }
 
-.link {
-  padding: 0;
-}
-
 .links a, .info a {
   font-size: 19px;
 }
-
-.link a, .links a, .info a {
-  font-size: 19px;
-}
-
 }
