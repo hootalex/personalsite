@@ -113,6 +113,7 @@ $(function(){
 //     var percent = e.clientX / $(window).width();
 //     $('body, html').scrollLeft($(document).width() * percent);
 // });
+
 $(document).scroll(function(){
 		$('.link').addClass('linkmin');
 });
