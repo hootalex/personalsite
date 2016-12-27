@@ -114,12 +114,14 @@ $(function(){
 //     $('body, html').scrollLeft($(document).width() * percent);
 // });
 
-$(document).scroll(function(){
-		$('.link').addClass('linkmin');
-});
-
-$(window).scroll(function() {
-   if($(window).scrollLeft() + $(window).width() == $(document).width()) {
-       $('.linkmin').removeClass('linkmin');
-   }
-});
+// Navlink Window Idea
+//
+// $(document).scroll(function(){
+// 		$('.link').addClass('linkmin');
+// });
+//
+// $(window).scroll(function() {
+//    if($(window).scrollLeft() + $(window).width() == $(document).width()) {
+//        $('.linkmin').removeClass('linkmin');
+//    }
+// });

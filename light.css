@@ -10,11 +10,20 @@ img {
   max-height: 80%;
 }
 
-.photo {
+.photo, .info, .links {
   display: table-cell;
   vertical-align: middle;
   height: 90vh;
   padding: 0px 20px 0px 20px;
+}
+
+.info, .links {
+  min-width: 350px;
+}
+
+.links a, .info a {
+  display: block;
+  padding-top: 13px;
 }
 
 ol {
@@ -28,19 +37,6 @@ li {
 br {
   display: block;
   margin: 13px 0;
-}
-
-.links a, .info a {
-  display: block;
-  padding-top: 13px;
-}
-
-.info, .links {
-  display: table-cell;
-  vertical-align: middle;
-  min-width: 350px;
-  height: 90vh;
-  padding: 0px 20px 0px 20px;
 }
 
 h1, h2, h3 {
