@@ -61,5 +61,22 @@
   }
 }
   </style>
+  <head>
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async='async'></script>
+  <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "55176468-39a4-40f6-9347-f956f9c922ca",
+      autoRegister: true, /* Set to true to automatically prompt visitors */
+      subdomainName: 'http://aelx.onesignal.com',
+      httpPermissionRequest: {
+        enable: true
+      },
+      notifyButton: {
+          enable: true /* Set to false to hide */
+      }
+    }]);
+  </script>
+</head>
 </body>
 </html>
