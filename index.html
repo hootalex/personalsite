@@ -5,6 +5,18 @@
 <link href="light.css" rel="alternate stylesheet" type="text/css" title="Light">
 <script src="jquery.min.js"></script>
 <script src="script.js"></script>
+<link rel="manifest" href="/manifest.json">
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(["init", {
+    appId: "ee9e5399-9020-41bf-a7d8-ea2dd15eeda4",
+    autoRegister: false,
+    notifyButton: {
+      enable: true /* Set to false to hide */
+    }
+  }]);
+</script>
 <meta name="viewport" content="width=320, initial-scale=1.0">
 <body>
   <div class="photo"><img src="photos/tunnel.gif" alt="Berk's Tunnel"></div>
