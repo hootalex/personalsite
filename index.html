@@ -11,14 +11,11 @@
   var OneSignal = window.OneSignal || [];
   OneSignal.push(["init", {
     appId: "ee9e5399-9020-41bf-a7d8-ea2dd15eeda4",
-    autoRegister: false,
+    autoRegister: true,
     notifyButton: {
       enable: false /* Set to false to hide */
     }
   }]);
-  OneSignal.push(function() {
-  OneSignal.showHttpPrompt();
-});
 </script>
 <meta name="viewport" content="width=320, initial-scale=1.0">
 <body>
