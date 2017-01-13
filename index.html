@@ -12,15 +12,21 @@
   OneSignal.push(["init", {
     appId: "ee9e5399-9020-41bf-a7d8-ea2dd15eeda4",
     autoRegister: false,
-    actionMessage: "Hello! Would you want to be notified when I have new work or shows?",
-    acceptButtonText: "Yes please!",
-    cancelButtonText: "No thanks..." }
     notifyButton: {
       enable: false /* Set to false to hide */
     }
   }]);
   OneSignal.push(function() {
   OneSignal.showHttpPrompt();
+  promptOptions: {
+        /* These prompt options values configure both the HTTP prompt and the HTTP popup. */
+        /* actionMessage limited to 90 characters */
+        actionMessage: "Would you like to know when I have new work or shows?",
+        /* acceptButtonText limited to 15 characters */
+        acceptButtonText: "Yes!",
+        /* cancelButtonText limited to 15 characters */
+        cancelButtonText: "No..."
+    }
 });
 </script>
 <meta name="viewport" content="width=320, initial-scale=1.0">
