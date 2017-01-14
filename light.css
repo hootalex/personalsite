@@ -103,3 +103,7 @@ img, video {
 ::-webkit-scrollbar-thumb {
     background: #ccc;
 }
+
+::-webkit-scrollbar-thumb:hover {
+    background: #aaa;
+}
