@@ -96,3 +96,10 @@ img, video {
   font-size: 19px;
 }
 }
+
+::-webkit-scrollbar {
+  height: 13px;
+    }
+::-webkit-scrollbar-thumb {
+    background: #333;
+}
