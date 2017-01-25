@@ -101,9 +101,9 @@ img, video {
   height: 13px;
     }
 ::-webkit-scrollbar-thumb {
-    background: #333;
+  background: #333;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #444;
+  background: #444;
 }
