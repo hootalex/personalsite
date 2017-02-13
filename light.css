@@ -101,12 +101,13 @@ img, video {
 }
 
 ::-webkit-scrollbar {
-  height: 13px;
-    }
+  height: 11px;
+
+}
 ::-webkit-scrollbar-thumb {
-    background: #ccc;
+  background: rgba(0, 0, 0, 0.25);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #aaa;
+  background: rgba(0, 0, 0, 0.5);
 }
