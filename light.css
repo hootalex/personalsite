@@ -9,7 +9,7 @@ html {
 img {
   max-height: 80%;
   /*Just trying this weird thing out...*/
-  outline: 1px solid rgba(255, 255, 255, 0.05);
+  outline: 1px solid rgba(255, 255, 255, 0.04);
   outline-offset: -1px;
 }
 
