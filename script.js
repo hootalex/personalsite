@@ -336,7 +336,7 @@ var style = {
   },
   cursor: {
     default: 'auto',
-    zoomIn: webkitPrefix + 'zoom-in',
+    zoomIn: webkitPrefix + 'url(http://www.abc.net.au/res/bundles/2.0.5/images/icon-search-grey@1x.png)',
     zoomOut: webkitPrefix + 'zoom-out',
     grab: webkitPrefix + 'grab',
     move: 'move'
