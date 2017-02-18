@@ -92,7 +92,7 @@ img, video {
   min-width: auto;
   padding: 0px 0px 15px 0px;
   width: calc(100% - 40px);
-  border-bottom: 1px solid #E8E8E8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
 
 .links a, .info a {
