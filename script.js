@@ -210,7 +210,7 @@ var options = {
    * Zoomable elements by default. It can be a css selector or an element.
    * @type {string|Element}
    */
-  defaultZoomable: 'img',
+  defaultZoomable: '.photo',
 
   /**
    * To be able to grab and drag the image for extra zoom-in.
