@@ -110,3 +110,7 @@ img, video {
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(255, 255, 255, 0.24);
 }
+
+.doodle {
+width: 80px;
+}
