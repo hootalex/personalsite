@@ -97,6 +97,10 @@ img, video {
 .links a, .info a {
   font-size: 19px;
 }
+
+.doodle {
+display: none;
+}
 }
 
 ::-webkit-scrollbar {
