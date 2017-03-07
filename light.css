@@ -7,7 +7,7 @@ html {
 }
 
 img {
-  max-height: 80%;
+  max-height: 80%;  
   outline: 1px solid rgba(255, 255, 255, 0.04);
   outline-offset: -1px;
 }
@@ -97,6 +97,10 @@ img, video {
 .links a, .info a {
   font-size: 19px;
 }
+
+.doodle {
+display: none;
+}
 }
 
 ::-webkit-scrollbar {
@@ -110,4 +114,9 @@ img, video {
 
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(0, 0, 0, 0.5);
+}
+
+.doodle {
+width: 80px;
+outline: none;
 }

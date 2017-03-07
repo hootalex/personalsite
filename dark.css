@@ -97,6 +97,10 @@ img, video {
 .links a, .info a {
   font-size: 19px;
 }
+
+.doodle {
+display: none;
+}
 }
 
 ::-webkit-scrollbar {
@@ -109,4 +113,9 @@ img, video {
 
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(255, 255, 255, 0.24);
+}
+
+.doodle {
+width: 80px;
+outline: none;
 }
