@@ -7,7 +7,7 @@ html {
 }
 
 img {
-  max-height: 80%;  
+  max-height: 80%;
   outline: 1px solid rgba(255, 255, 255, 0.04);
   outline-offset: -1px;
 }
@@ -43,6 +43,7 @@ br {
 
 h1, h2, h3 {
   font-weight: normal;
+  font-size: 13px;
 }
 
 h1 {
@@ -50,7 +51,6 @@ h1 {
 }
 
 h2 {
-  font-size: 13px;
   font-style: italic;
 }
 
