@@ -8,8 +8,6 @@ html {
 
 img {
   max-height: 80%;
-  outline: 1px solid rgba(255, 255, 255, 0.04);
-  outline-offset: -1px;
 }
 
 .photo, .info, .links {
@@ -118,5 +116,4 @@ display: none;
 
 .doodle {
 width: 80px;
-outline: none;
 }

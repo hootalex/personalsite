@@ -1,5 +1,5 @@
 html {
-  background-color: #000;
+  background-color: #111;
   color: white;
   -webkit-font-smoothing: antialiased;
   font: 13px Georgia, serif;
@@ -8,8 +8,6 @@ html {
 
 img {
   max-height: 80%;
-  outline: 1px solid rgba(255, 255, 255, 0.04);
-  outline-offset: -1px;
 }
 
 .photo, .info, .links {
@@ -117,5 +115,4 @@ display: none;
 
 .doodle {
 width: 80px;
-outline: none;
 }
