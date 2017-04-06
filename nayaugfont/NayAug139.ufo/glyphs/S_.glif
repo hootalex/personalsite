@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="S" format="1">
+  <advance width="539"/>
+  <unicode hex="0053"/>
+  <outline>
+    <contour>
+      <point x="426" y="550" type="curve"/>
+      <point x="487" y="575" type="line"/>
+      <point x="475" y="669"/>
+      <point x="403" y="755"/>
+      <point x="285" y="755" type="curve" smooth="yes"/>
+      <point x="163" y="755"/>
+      <point x="75" y="663"/>
+      <point x="75" y="547" type="curve" smooth="yes"/>
+      <point x="75" y="443"/>
+      <point x="166.086" y="399.243"/>
+      <point x="251" y="369" type="curve" smooth="yes"/>
+      <point x="385.087" y="321.243"/>
+      <point x="433.101" y="294.003"/>
+      <point x="435" y="219" type="curve" smooth="yes"/>
+      <point x="437.101" y="136.003"/>
+      <point x="383" y="68"/>
+      <point x="285" y="68" type="curve" smooth="yes"/>
+      <point x="207" y="68"/>
+      <point x="108" y="110"/>
+      <point x="108" y="211" type="curve" smooth="yes"/>
+      <point x="108" y="234"/>
+      <point x="113" y="252"/>
+      <point x="120" y="267" type="curve"/>
+      <point x="48" y="241" type="line"/>
+      <point x="43" y="228"/>
+      <point x="41" y="213"/>
+      <point x="41" y="196" type="curve" smooth="yes"/>
+      <point x="41" y="53"/>
+      <point x="180" y="-6"/>
+      <point x="287" y="-6" type="curve" smooth="yes"/>
+      <point x="418" y="-6"/>
+      <point x="509" y="97"/>
+      <point x="509" y="210" type="curve" smooth="yes"/>
+      <point x="509" y="337"/>
+      <point x="404.014" y="390.042"/>
+      <point x="307" y="422" type="curve" smooth="yes"/>
+      <point x="234.014" y="446.042"/>
+      <point x="148" y="472"/>
+      <point x="148" y="555" type="curve" smooth="yes"/>
+      <point x="148" y="626"/>
+      <point x="210" y="685"/>
+      <point x="285" y="685" type="curve" smooth="yes"/>
+      <point x="369" y="685"/>
+      <point x="422" y="609"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>1</real>
+    <real>0.882</real>
+    <real>0.6</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
+</glyph>
