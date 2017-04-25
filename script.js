@@ -259,7 +259,7 @@ var options = {
    * The extra scale factor when grabbing the image.
    * @type {number}
    */
-  scaleExtra: 0.5,
+  scaleExtra: 0.8,
 
   /**
    * How much scrolling it takes before closing out.
