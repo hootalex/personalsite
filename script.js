@@ -324,7 +324,7 @@ var style = {
   },
   overlay: {
     init: {
-      zIndex: 99999,
+      zIndex: 998,
       backgroundColor: options.bgColor,
       position: 'fixed',
       top: 0,
@@ -676,7 +676,7 @@ var api = {
 
     style.target.open = {
       position: 'relative',
-      zIndex: 999,
+      zIndex: 99999,
       cursor: options.enableGrab ? style.cursor.grab : style.cursor.zoomOut,
       transition: transformCssProp + '\n        ' + options.transitionDuration + 's\n        ' + options.transitionTimingFunction,
       transform: 'translate(' + translate.x + 'px, ' + translate.y + 'px) scale(' + scale + ')'
