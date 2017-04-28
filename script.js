@@ -324,7 +324,7 @@ var style = {
   },
   overlay: {
     init: {
-      zIndex: 998,
+      zIndex: 99998,
       backgroundColor: options.bgColor,
       position: 'fixed',
       top: 0,
