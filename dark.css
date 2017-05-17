@@ -95,24 +95,17 @@ img, video {
 .links a, .info a {
   font-size: 19px;
 }
-
-.doodle {
-display: none;
-}
 }
 
 ::-webkit-scrollbar {
-  height: 13px;
+  height: 7px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 7px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.24);
-}
-
-.doodle {
-width: 80px;
+  background: rgba(255, 255, 255, 0.2);
 }
