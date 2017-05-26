@@ -90,7 +90,7 @@ img, video {
 }
 
 ::-webkit-scrollbar {
-  height: 7px;
+  height: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
