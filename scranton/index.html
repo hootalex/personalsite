@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<title>Alex Tomlinson - Scranton Panorama</title>
+<script src="../jquery.min.js"></script>
+<style>
+html, body {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  cursor: none;
+}
+
+img {
+  position: absolute;
+  height: 100%;
+}
+
+</style>
+<script>
+  $(document).mousemove(function(e) {
+    var percent = e.clientX / $(window).width();
+    $('body, html').scrollLeft($(document).width() * percent);
+});
+</script>
+<body>
+  <div class="panorama"><img src="scranton.jpg"></div>
+</body>
+</html>
