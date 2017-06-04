@@ -7,23 +7,48 @@ html, body {
   background-color: black;
   padding: 0;
   margin: 0;
-  cursor: none;
+  /*cursor: none;*/
   overflow: hidden;
 }
 
+.panorama {
+  height: 100vh;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.height {
+  height: auto;
+}
+
+
 img {
+  width: 100%;
+}
+
+.zoom {
   position: absolute;
   height: 100%;
+  width: auto;
+  transform: scale(1);
 }
 
 </style>
 <script>
-  $(document).mousemove(function(e) {
-    var percent = e.clientX / $(window).width();
-    $('body, html').scrollLeft($(document).width() * percent);
-});
+$(document).ready(function() {
+
+			$("html").click(function() {
+
+				$("img").toggleClass("zoom");
+        $(".panorama").toggleClass("height");
+        $(document).mousemove(function(e) {
+          var percent = e.clientX / $(window).width();
+          $('body, html').scrollLeft($(document).width() * percent);
+      });
+			});
+      });
 </script>
 <body>
-  <div class="panorama"><img src="scranton.jpg"></div>
+  <div id="pan" class="panorama"><img src="scranton.jpg"></div>
 </body>
 </html>
