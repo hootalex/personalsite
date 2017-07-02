@@ -2,6 +2,7 @@ html {
   background-color: white;
   color: #111;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font: 13px Georgia, serif;
   margin-left: 12px;
 }
