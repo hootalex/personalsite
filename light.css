@@ -19,7 +19,8 @@ img {
 }
 
 .info, .links {
-  min-width: 350px;
+  min-width: 340px;
+  max-width: 340px;
 }
 
 .links a, .info a {
@@ -80,6 +81,7 @@ img, video {
   margin: auto;
   height: auto;
   min-width: auto;
+  max-width: none;
   padding: 0px 0px 15px 0px;
   width: calc(100% - 40px);
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
