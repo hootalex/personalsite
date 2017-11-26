@@ -5,6 +5,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   font: 13px Georgia, serif;
   margin-left: 12px;
+  line-height: 1.4;
 }
 
 img {
