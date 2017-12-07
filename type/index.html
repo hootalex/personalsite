@@ -1,0 +1,62 @@
+<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script>
+$(function() {
+$( ".pattern" ).draggable();
+});
+</script>
+<style>
+html, body {
+  overflow: hidden;
+  background-color: gainsboro;
+  font-family: sans-serif;
+}
+/*.element {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  height: 100px;
+  width: 100px;
+}*/
+.pattern {
+    width: 40vw;
+    height: 40vw;
+    position: absolute;
+    z-index: 10;
+    color: white;
+    text-align: center;
+}
+.pattern img {
+  width: 100%;
+  cursor: move;
+}
+
+.beauty:hover {
+	cursor: pointer;
+}
+.a {
+  animation-name: bounce;
+animation-duration: 1s;
+}
+.y {
+  margin-left: 25vw;
+  margin-top: 10vh;
+  animation-name: bounce;
+animation-duration: 1.5s;
+}
+.p {
+  margin-left: 50vw;
+  margin-top: 50vh;
+  animation-name: bounce;
+animation-duration: 2s;
+}
+@keyframes bounce {
+    from {transform: translateY(100px);
+    to {transform: translateY(0);}
+}
+</style>
+<div class="element"></div>
+<div class="pattern a"><img src="type.png"/></div>
+<div class="pattern y"><img src="bg.png"/></div>
+<div class="pattern p"><img src="2018.png"/></div>
