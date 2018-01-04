@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <title>type.aelx.co</title>
+  <script src="http://code.jquery.com/jquery-latest.js">
+  </script>
+  <script>
+    $(document).ready(function() {
+
+      $("#invert").click(function() {
+
+        $("html").toggleClass("invert");
+      });
+
+      $('#slider').on('input', function () {
+    var v = $(this).val();
+    $('.letters').css('font-size', v + 'px')
+    $('.letters').css('letter-spacing', v / 'px')
+    $('#size').html(v);
+});
+
+
+      $("#about").click(function() {
+        // assumes element with id='button'
+        $("#about").toggle();
+      });
+      $("#note").click(function() {
+        // assumes element with id='button'
+        $("#note").toggle();
+      });
+
+      $("#autoswitch").click(function() {
+
+        $("p").toggleClass("autoswitch");
+      });
+
+      $("#dropdown").change(function() {
+        if ($(this).val() == 'Large')
+          $("p").removeClass();
+        $("p").addClass("large");
+      });
+
+      $("#dropdown").change(function() {
+        if ($(this).val() == 'Normal size')
+          $("p").toggleClass("normal");
+      });
+
+      $("#dropdown").change(function() {
+        if ($(this).val() == 'Huge')
+          $("p").removeClass();
+        $("p").toggleClass("huge");
+      });
+
+      $("#dropdown").change(function() {
+        if ($(this).val() == 'Paragraph')
+          $("p").removeClass();
+        $("p").toggleClass("small");
+      });
+
+      $("#strobe").click(function() {
+
+        $("html, ul").toggleClass("strobe");
+      });
+
+      $("#strobe").click(function() {
+        $().removeClass();
+
+        $("p").toggleClass("pstrobe");
+      });
+
+
+    });
+  </script>
+</head>
+
+<body>
+  <ul class="ulist">
+    <li style="list-style: none">
+    <input id="slider" type="range" min="14" max="200">
+    </li>
+    <li id="current">Nicholson-Regular_40.ufo (Dec 16, 2017) <span id="size">100</span>px</li>
+    <li id="invert">Invert</li>
+  </ul>
+  <div id="about">
+    <span>
+      This is a typeface that started in Hannes Famira's Type Design semester-long course at The Cooper Union. It is still far from complete!
+			</span>
+  </div>
+
+  <div id="note">
+    <span>
+      ~Basically only letters right now<br>
+      ~No kerning<br>
+      ~Texture Issues<br>
+      </span>
+  </div>
+  <div class="letters">
+    <p class="editable" contenteditable="true" id="letters" spellcheck="false">A short animation featuring audio recordings of my friend. The frames were rotoscoped with ink and glow-in-the-dark paint, then photographed on a light table.
+    </p>
+  </div>
+</body>
+
+</html>
