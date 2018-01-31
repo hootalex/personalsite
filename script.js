@@ -11,11 +11,11 @@ $(document).bind('keypress',function(e){
   var charCode=
       (e.keyCode ? e.keyCode : e.which);
   if(charCode == 97){
-$('head').append('<link rel="stylesheet" type="text/css" href="http://aelx.co/light.css">');
+$('head').append('<link rel="stylesheet" type="text/css" href="https://aelx.co/light.css">');
 
      }
      if(charCode == 115){
-   $('head').append('<link rel="stylesheet" type="text/css" href="http://aelx.co/dark.css">');
+   $('head').append('<link rel="stylesheet" type="text/css" href="https://aelx.co/dark.css">');
         }
  });
 
