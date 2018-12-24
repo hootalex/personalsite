@@ -1,0 +1,291 @@
+/*Note to self: I'm using #111111 instead of black because it looks nicer on the screen.*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Coda);
+html {
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+a:link {
+  color: #0074D9;
+  text-decoration: none;
+}
+a:visited {
+  color: #0074D9;
+  text-decoration: none;
+}
+a:hover {
+  color: #111111;
+  text-decoration: none;
+  background-color: lightyellow;
+}
+article {
+  color: #111111;
+}
+
+.hide {
+  display: none;
+}
+
+.folder {
+  display: none;
+}
+  .show {
+    display: block;
+  }
+
+h1 {
+  font-family: "Coda", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  display: inline;
+  padding: 10px;
+  margin-left: 25px;
+  background-color: white;
+  color: #85144b;
+  border: 1px solid #111111;
+  box-shadow: -9px 9px 0px -4px rgba(0, 0, 0, 0.39);
+  cursor: default;
+  /*font-smooth: never;*/
+  /*-webkit-font-smoothing : none;*/
+}
+h1::selection { background-color: transparent }
+
+h2 {
+  display: inline;
+  font-size: .9em;
+  font-weight: 400;
+  margin-right: 25px;
+  margin-top: 45px;
+  color: #AAAAAA;
+  cursor: default;
+}
+
+.center {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  color: #AAAAAA;
+  font-weight: 600;
+  font-size: 13px;
+  /*font-smooth: never;*/
+  /*-webkit-font-smoothing : none;*/
+}
+strong {
+  border-bottom: dashed #111111 1px;
+}
+#topbar {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #AAAAAA;
+}
+#footer {
+  width: 900px;
+  margin: auto;
+  padding-bottom: 20px;
+  /* border-top: 1px solid #AAAAAA; */
+  text-align: left;
+  font-size: .9em;
+  margin-top: 30px;
+}
+.columns {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+.col-one, .col-two, .col-three {
+  background-color: white;
+  width: 33.33%;
+  padding-right: 20px;
+  padding-left: 20px;
+  /*border-right: 1px solid #AAAAAA;*/
+}
+
+.columns div:nth-child(3) {
+  border-right: none
+}
+.columns img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+.about p:nth-of-type(1):first-letter {
+  float: left;
+  font-family: Georgia, serif;
+  color: rgb(51, 51, 51);
+  font-size: 50px;
+  line-height: 20px;
+  margin-top: 4px;
+  margin-right: 8px;
+  margin-left: 5px;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  padding: 20px;
+  border: 1px solid #0074D9;
+  background-color: white;
+  box-shadow: -9px 9px 0px -4px rgba(0, 0, 0, 0.39);
+}
+
+article {
+  font-size: .9em;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(0,0,255,0.1);
+}
+.song {
+  background-color: salmon;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+.playbutton {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  width: 10%;
+  color: white;
+}
+.player {
+  display: flex;
+  flex-direction: row-reverse;;
+}
+#waveform {
+  width: 90%;
+}
+img, .song {
+  border-radius: 3px;
+}
+
+.profile {
+  border-radius: 50%;
+}
+audio {
+  width: 90%;
+}
+ul {
+  list-style: square;
+}
+.errorshake { animation: shake .4s linear;
+}
+.flyin { animation: flyin .4s ease;
+}
+@keyframes flyin {
+    0% {
+        transform: scale(1,.8);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+@keyframes shake {
+    8%, 41% {
+        transform: translateX(-10px);
+    }
+    25%, 58% {
+        transform: translateX(10px);
+    }
+    75% {
+        transform: translateX(-5px);
+    }
+    92% {
+        transform: translateX(5px);
+    }
+    0%, 100% {
+        transform: translateX(0);
+    }
+}
+
+/*All the stuff that styles my imaginary file explorer.*/
+.explorer {
+  line-height: 2;
+  list-style: none;
+  font-family: Lucida Grand, Segoe, Verdana, sans-serif;
+  width: 900px;
+  margin: auto;
+  padding: 0;
+  font-size: .8em;
+}
+
+.explorer ul {
+  list-style: none;
+}
+
+.explorer li {
+  border-bottom: 1px solid #AAAAAA;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  cursor: default;
+}
+
+.selected {
+  background-color: #EBF4FA;
+}
+
+.explorer li:hover {
+  background-color: #EBF4FA;
+}
+
+.explorer li:hover i {
+  color: #111111;
+}
+
+.explorer li:active {
+  background-color: white;
+}
+
+.explorer a {
+  color: #111111;
+  cursor: default;
+}
+
+.explorer li i {
+  color: #AAAAAA;
+}
+
+/*Done styling the file explorer.*/
+
+@media all and (max-width:700px) {
+  body {
+    background-color: white;
+  }
+  #topbar {
+    width: 100%;
+  }
+  #footer {
+    width: 100%;
+  }
+  .columns {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .col-one, .col-two, .col-three {
+    background-color: white;
+    width: 90%;
+    margin: auto;
+  }
+  .explorer {
+    width: 100%;
+  }
+  article, #footer {
+    font-size: 1em;
+  }
+  html, body {
+    background-image: none;
+  }
+  audio {
+    height: 45px;
+  }
