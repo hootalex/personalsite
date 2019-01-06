@@ -1,8 +1,6 @@
 html {
   background-color: white;
   color: #111;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   font: 13px Georgia, serif;
   margin-left: 12px;
   line-height: 1.4;
@@ -99,8 +97,4 @@ img, video {
 
 ::-webkit-scrollbar-thumb {
   background: rgba(0, 0, 0, 0.25);
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 0, 0, 0.40);
 }
