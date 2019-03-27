@@ -11,11 +11,12 @@ $(document).bind('keypress',function(e){
   var charCode=
       (e.keyCode ? e.keyCode : e.which);
   if(charCode == 97){
-$('head').append('<link rel="stylesheet" type="text/css" href="https://aelx.co/light.css">');
+$('link').html('<link rel="stylesheet" type="text/css" href="https://aelx.co/light.css"><link rel="icon" type="https://aelx.co/favicon2.ico"/>');
+
 
      }
      if(charCode == 115){
-   $('head').append('<link rel="stylesheet" type="text/css" href="https://aelx.co/dark.css">');
+   $('link').html('<link rel="stylesheet" type="text/css" href="https://aelx.co/dark.css"><link rel="icon" type="https://aelx.co/favicon.ico"/>');
         }
  });
 
