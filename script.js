@@ -7,14 +7,20 @@ $(function() {
   });
 });
 
+
 $(document).bind('keypress',function(e){
+  function changeFavicon(src) {
+      $('link[rel="shortcut icon"]').attr('href', src)
+  }
   var charCode=
       (e.keyCode ? e.keyCode : e.which);
   if(charCode == 97){
 $('link').html('<link rel="stylesheet" type="text/css" href="https://aelx.co/light.css">');
+changeFavicon('https://aelx.co/favicon2.ico');
      }
      if(charCode == 115){
    $('link').html('<link rel="stylesheet" type="text/css" href="https://aelx.co/dark.css">');
+   changeFavicon('//google.com/favicon.ico');
         }
  });
 
