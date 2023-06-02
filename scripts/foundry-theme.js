@@ -1050,7 +1050,7 @@ $(function() {
     }), $(".open_menu a").click(function() {
         return $("body").addClass("overlay_open"), $(".overlay").addClass("navigation"), !1
     }), $(".open_cart a").click(function() {
-        return $(".mini_cart").fadeToggle("fast"), !1
+        return $(".mini_cart").fadeToggle(100), !1
     }), $(".close_overlay").click(function() {
         $(".overlay").removeClass("open navigation search"), $("body").removeClass("overlay_open")
     }), $(".product_thumbnails li a").click(function(t) {
