@@ -1,4 +1,4 @@
-// Newerish one
+// Newerish one pixel
 /**
  * bl-jquery-image-center jQuery Plugin
  *
