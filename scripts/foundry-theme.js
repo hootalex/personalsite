@@ -1,5 +1,3 @@
-// This is the newer one!
-
 /**
  * bl-jquery-image-center jQuery Plugin
  *
@@ -1056,7 +1054,7 @@ $(function() {
     }), $(".close_overlay").click(function() {
         $(".overlay").removeClass("open navigation search"), $("body").removeClass("overlay_open")
     }), $(".product_thumbnails li a").click(function(t) {
-        return t.preventDefault(), $(".primary_image").attr("src", $("").attr("href")), $(".primary_image").attr("src", $(this).attr("href")), $(".product_thumbnails li").removeClass("active"), $(this).parent().addClass("active"), !1
+        return t.preventDefault(), $(".primary_image").attr("src", $(this).attr("href")), $(".product_thumbnails li").removeClass("active"), $(this).parent().addClass("active"), !1
     }), $(".product-form").submit(function(t) {
         t.preventDefault();
         var e = $(this).find("#quantity").val(),
