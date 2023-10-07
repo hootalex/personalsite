@@ -1,3 +1,4 @@
+// Newerish one
 /**
  * bl-jquery-image-center jQuery Plugin
  *
@@ -1054,6 +1055,8 @@ $(function() {
     }), $(".close_overlay").click(function() {
         $(".overlay").removeClass("open navigation search"), $("body").removeClass("overlay_open")
     }), $(".product_thumbnails li a").click(function(t) {
+        $(".primary_image").attr("src", $("").attr("href")) //this should do the trick
+        console.log("clicked!")
         return t.preventDefault(), $(".primary_image").attr("src", $(this).attr("href")), $(".product_thumbnails li").removeClass("active"), $(this).parent().addClass("active"), !1
     }), $(".product-form").submit(function(t) {
         t.preventDefault();
