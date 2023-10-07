@@ -1,4 +1,4 @@
-// Newerish one pixel
+// Newerish one opacity
 /**
  * bl-jquery-image-center jQuery Plugin
  *
@@ -1055,9 +1055,9 @@ $(function() {
     }), $(".close_overlay").click(function() {
         $(".overlay").removeClass("open navigation search"), $("body").removeClass("overlay_open")
     }), $(".product_thumbnails li a").click(function(t) {
-        $(".primary_image").attr('src', 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=='); //this should do the trick
-        console.log("clicked!")
-        return t.preventDefault(), $(".primary_image").attr("src", $(this).attr("href")), $(".product_thumbnails li").removeClass("active"), $(this).parent().addClass("active"), !1
+        $(".primary_image").css("opacity","0"); //this should do the trick
+        console.log("clicked opacity")
+        return t.preventDefault(), $(".primary_image").attr("src", $(this).attr("href")), $(".product_thumbnails li").removeClass("active"), $(this).parent().addClass("active"), $(".primary_image").css("opacity","1") !1
     }), $(".product-form").submit(function(t) {
         t.preventDefault();
         var e = $(this).find("#quantity").val(),
